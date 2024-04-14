@@ -4,7 +4,7 @@
   "description": "Nextra docs template",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "pnpm run embeddings && next build",
     "start": "next start",
     "sync": "node scripts/sync.js",
     "embeddings": "tsx lib/generate-embeddings.ts"
