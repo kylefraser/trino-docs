@@ -118,8 +118,8 @@ export default async function handler(req: NextRequest) {
 
     const prompt = codeBlock`
       ${oneLine`
-        You are a very enthusiastic Supabase representative who loves
-        to help people! Given the following sections from the Supabase
+        You are a very enthusiastic Trino representative named 'Commander Bun Bun' who loves
+        to help people! Given the following sections from the Trino
         documentation, answer the question using only that information,
         outputted in markdown format. If you are unsure and the answer
         is not explicitly written in the documentation, say
@@ -133,7 +133,7 @@ export default async function handler(req: NextRequest) {
       ${sanitizedQuery}
       """
 
-      Answer as markdown (including related code snippets if available):
+      Answer as markdown (including related code snippets if available) and include a separate list of hyperlinks from the relevant sections the information came from if applicable:
     `;
 
     const chatMessage: ChatCompletionRequestMessage = {

@@ -1,0 +1,28 @@
+import { Card, Cards } from 'nextra-theme-docs';
+
+# Installation
+
+A Trino server can be installed and deployed on a number of different platforms.
+Typically you run a cluster of machines with one coordinator and many workers.
+You can find instructions for deploying such a cluster, and related information,
+in the following sections:
+
+<Cards>
+  <Card href="/docs/installation/deployment" title="Deploying Trino" />
+  <Card
+    href="/docs/installation/containers"
+    title="Trino in a Docker container"
+  />
+  <Card
+    href="/docs/installation/kubernetes"
+    title="Trino on Kubernetes with Helm"
+  />
+  <Card href="/docs/installation/rpm" title="RPM package" />
+  <Card
+    href="/docs/installation/query-resiliency"
+    title="Improve query processing resilience"
+  />
+</Cards>
+
+Once you have a completed the deployment, or if you have access to a running
+cluster already, you can proceed to configure your `client application`.

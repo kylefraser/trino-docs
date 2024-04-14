@@ -29,6 +29,10 @@
   }
 }
 
+.nav-logo {
+  @apply text-black dark:text-white;
+}
+
 @layer components {
   .container {
     max-width: 90rem;

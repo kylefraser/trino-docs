@@ -1,0 +1,7 @@
+{
+  "deployment": "Deploying Trino",
+  "containers": "Trino in a Docker container",
+  "kubernetes": "Trino on Kubernetes with Helm",
+  "rpm": "RPM package",
+  "query-resiliency": "Improve query processing resilience"
+}
