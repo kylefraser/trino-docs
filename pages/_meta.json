@@ -1,15 +1,96 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
+  "index": {
+    "title": "Introduction",
+    "type": "page",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw"
+    }
+  },
+  "docs": {
+    "title": "Documentation",
     "type": "page"
   },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
+  "get-started": {
+    "title": "Get started",
+    "type": "page"
+  },
+  "ecosystem": {
+    "title": "Ecosystem",
+    "type": "menu",
+    "items": {
+      "clients": {
+        "title": "Clients",
+        "href": "/ecosystem/clients"
+      },
+      "data-sources": {
+        "title": "Data sources",
+        "href": "/ecosystem/data-sources"
+      },
+      "add-ons": {
+        "title": "Add-ons",
+        "href": "/ecosystem/add-ons"
+      }
+    }
+  },
+  "community": {
+    "title": "Community",
+    "type": "menu",
+    "items": {
+      "code-of-conduct": {
+        "title": "Code of conduct",
+        "href": "/community/code-of-conduct"
+      },
+      "community-broadcast": {
+        "title": "Community broadcast",
+        "href": "/community/community-broadcast"
+      },
+      "contributors": {
+        "title": "Contributors",
+        "href": "/community/contributors"
+      },
+      "corporate-guidelines": {
+        "title": "Corporate guidelines",
+        "href": "/community/corporate-guidelines"
+      },
+      "events": {
+        "title": "Events",
+        "href": "/community/events"
+      },
+      "slack": {
+        "title": "Slack",
+        "href": "/community/slack"
+      },
+      "users": {
+        "title": "Users",
+        "href": "/community/users"
+      }
+    }
+  },
+  "development": {
+    "title": "Development",
+    "type": "menu",
+    "items": {
+      "contribute": {
+        "title": "Contribute",
+        "href": "/development/contribute"
+      },
+      "developer-guidelines": {
+        "title": "Developer guidelines",
+        "href": "/development/developer-guidelines"
+      },
+      "roles": {
+        "title": "Roles",
+        "href": "/development/roles"
+      },
+      "vision": {
+        "title": "Vision",
+        "href": "/development/vision"
+      }
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "type": "page"
   }
 }

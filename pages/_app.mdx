@@ -1,0 +1,17 @@
+import '../globals.css';
+import { alata, roboto, roboto_mono } from '../fonts';
+
+export default function Nextra({ Component, pageProps }) {
+  return (
+    <>
+      <style jsx global>{`
+        :root {
+          --font-alata: ${alata.style.fontFamily};
+          --font-roboto: ${roboto.style.fontFamily};
+          --font-roboto-mono: ${roboto_mono.style.fontFamily};
+        }
+      `}</style>
+      <Component {...pageProps} />
+    </>
+  );
+}
