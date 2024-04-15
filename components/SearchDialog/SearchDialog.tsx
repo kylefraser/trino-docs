@@ -31,26 +31,26 @@ export default function SearchDialog() {
     api: '/api/vector-search',
   });
 
-  React.useEffect(() => {
-    const down = (e: KeyboardEvent) => {
-      if (e.key === 'k' && e.metaKey) {
-        setOpen(true);
-      }
+  // React.useEffect(() => {
+  //   const down = (e: KeyboardEvent) => {
+  //     if (e.key === 'k' && e.metaKey) {
+  //       setOpen(true);
+  //     }
 
-      if (e.key === 'Escape') {
-        console.log('esc');
-        handleModalToggle();
-      }
-    };
+  //     if (e.key === 'Escape') {
+  //       console.log('esc');
+  //       handleModalToggle();
+  //     }
+  //   };
 
-    document.addEventListener('keydown', down);
-    return () => document.removeEventListener('keydown', down);
-  }, []);
+  //   document.addEventListener('keydown', down);
+  //   return () => document.removeEventListener('keydown', down);
+  // }, []);
 
-  function handleModalToggle() {
-    setOpen(!open);
-    setQuery('');
-  }
+  // function handleModalToggle() {
+  //   setOpen(!open);
+  //   setQuery('');
+  // }
 
   const handleSubmit: React.FormEventHandler<HTMLFormElement> = (e) => {
     e.preventDefault();

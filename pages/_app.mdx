@@ -1,5 +1,6 @@
 import '../globals.css';
 import { alata, roboto, roboto_mono } from '../fonts';
+import { SearchDialog } from 'components';
 
 export default function Nextra({ Component, pageProps }) {
   return (
@@ -12,6 +13,7 @@ export default function Nextra({ Component, pageProps }) {
         }
       `}</style>
       <Component {...pageProps} />
+      <SearchDialog />
     </>
   );
 }
