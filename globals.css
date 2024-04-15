@@ -25,6 +25,9 @@
     @apply text-xl;
   }
   a {
+    @apply text-orange-900 hover:text-pink-900;
+  }
+  .active > a {
     @apply text-orange-900 hover:text-orange-1000;
   }
 }

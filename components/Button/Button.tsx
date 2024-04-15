@@ -21,8 +21,7 @@ const button = tv({
   variants: {
     color: {
       primary: 'bg-orange-900 text-white hover:bg-orange-1000',
-      secondary:
-        'bg-transparent text-black dark:text-white border-[1px] border-orange-700 hover:bg-orange-300 hover:text-orange-1100',
+      secondary: 'bg-pink-900 text-white hover:bg-pink-1000',
     },
     size: {
       sm: 'px-4 py-1 text-[15px] h-[32px]',
