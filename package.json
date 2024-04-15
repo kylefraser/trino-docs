@@ -1,7 +1,7 @@
 {
-  "name": "nextra-docs-template",
-  "version": "0.0.1",
-  "description": "Nextra docs template",
+  "name": "trino-site",
+  "version": "1.0.0",
+  "description": "Trino.io website and documentation",
   "scripts": {
     "dev": "next dev",
     "build": "pnpm run embeddings && next build",

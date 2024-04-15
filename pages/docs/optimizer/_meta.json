@@ -1,0 +1,6 @@
+{
+  "statistics": "Table statistics",
+  "cost-in-explain": "Cost in EXPLAIN",
+  "cost-based-optimizations": "Cost-based optimizations",
+  "pushdown": "Pushdown"
+}

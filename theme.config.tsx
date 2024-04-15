@@ -1,5 +1,7 @@
 import React from 'react';
 import { DocsThemeConfig } from 'nextra-theme-docs';
+import { useRouter } from 'next/router';
+import { Footer } from 'components';
 
 const config: DocsThemeConfig = {
   logo: (
@@ -67,7 +69,19 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
   footer: {
-    text: 'Starburst | Brand Guidelines',
+    component: <Footer />,
+  },
+  useNextSeoProps() {
+    const { asPath } = useRouter();
+    if (asPath !== '/') {
+      return {
+        titleTemplate: '%s - Trino',
+      };
+    } else {
+      return {
+        title: 'Trino',
+      };
+    }
   },
 };
 
