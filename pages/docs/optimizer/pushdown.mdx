@@ -16,8 +16,6 @@ These benefits often result in significant cost reduction.
 Support for pushdown is specific to each connector and the relevant underlying
 database or storage system.
 
-(predicate-pushdown)=
-
 ## Predicate pushdown
 
 Predicate pushdown optimizes row-based filtering. It uses the inferred filter,
@@ -28,8 +26,6 @@ processed by the data source.
 If predicate pushdown for a specific clause is succesful, the `EXPLAIN` plan for
 the query does not include a `ScanFilterProject` operation for that clause.
 
-(projection-pushdown)=
-
 ## Projection pushdown
 
 Projection pushdown optimizes column-based filtering. It uses the columns
@@ -39,8 +35,6 @@ and then the data source only reads and returns the neccessary columns.
 
 If projection pushdown is succesful, the `EXPLAIN` plan for the query only
 accesses the relevant columns in the `Layout` of the `TableScan` operation.
-
-(dereference-pushdown)=
 
 ## Dereference pushdown
 
@@ -53,8 +47,6 @@ with several fields. If a query only accesses one field, dereference pushdown
 allows the file reader to read only that single field within the row. The same
 applies to fields of a row nested within the top level row. This can result in
 significant savings in the amount of data read from the storage system.
-
-(aggregation-pushdown)=
 
 ## Aggregation pushdown
 
@@ -178,8 +170,6 @@ Aggregation pushdown does not support a number of more complex statements:
 - `aggregations with ordering <aggregate-function-ordering-during-aggregation>`
 - `aggregations with filter <aggregate-function-filtering-during-aggregation>`
 
-(join-pushdown)=
-
 ## Join pushdown
 
 Join pushdown allows the connector to delegate the table join operation to the
@@ -232,8 +222,6 @@ It is typically beneficial to push down a join. Pushing down a join can also
 increase the row count compared to the size of the input to the join. This may
 impact performance.
 
-(limit-pushdown)=
-
 ## Limit pushdown
 
 A `limit-clause` reduces the number of returned records for a statement. Limit
@@ -248,8 +236,6 @@ Queries include sections such as `LIMIT N` or `FETCH FIRST N ROWS`.
 
 Implementation and support is connector-specific since different data sources
 have varying capabilities.
-
-(topn-pushdown)=
 
 ## Top-N pushdown
 
