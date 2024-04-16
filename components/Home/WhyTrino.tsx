@@ -5,7 +5,7 @@ const WhyTrino = () => {
   return (
     <Section>
       <h2>Why Trino?</h2>
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {whyTrino.map((item) => (
           <div className="flex flex-col items-center justify-center p-8 gap-4 bg-background rounded-lg">
             <div className="w-[48px] h-[48px] relative">

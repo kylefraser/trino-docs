@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <div className="container mx-auto flex flex-col items-center text-center py-40 relative">
+    <div className="container mb-20 md:mb-0 mx-auto flex flex-col items-center text-center py-40 relative">
       <div className="w-[600px] h-[300px] shrink-0 rounded-full bg-pink-900 blur-[60px] absolute left-1/2 -top-[20%] z-[-1] opacity-[0.1]"></div>
       <div className="w-[600px] h-[300px] shrink-0 rounded-full bg-orange-900 blur-[60px] absolute right-1/2 -top-[20%] z-[-1] opacity-[0.1]"></div>
       <svg
@@ -59,14 +59,14 @@ const Hero = () => {
         width="267"
         height="121"
         alt="Trino"
-        className="absolute scale-150 top-20 left-20"
+        className="absolute lg:scale-150 top-0 left-0 lg:top-20 lg:left-20"
       />
       <Image
         src="/images/hero-right.svg"
         width="172"
         height="181"
         alt="Trino"
-        className="absolute scale-150 bottom-20 right-20"
+        className="absolute lg:scale-150 -bottom-10 md:bottom-0 lg:bottom-20 right-0 lg:right-20"
       />
     </div>
   );

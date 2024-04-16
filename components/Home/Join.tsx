@@ -5,7 +5,7 @@ const Join = () => {
   return (
     <Section>
       <h2>Join the fastest growing open-source analytics project</h2>
-      <div className="grid grid-cols-11 w-full grid-rows-[repeat(2,60px)] gap-8">
+      <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-11 w-full grid-rows-[repeat(8,40px)] md:grid-rows-[repeat(4,50px)] lg:grid-rows-[repeat(2,60px)] gap-2 md:gap-4 lg:gap-8">
         {logos.map((logo) => (
           <div key={logo} className="relative w-full h-full">
             <Image

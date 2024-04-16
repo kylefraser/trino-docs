@@ -5,7 +5,7 @@ const Resources = () => {
   return (
     <Section>
       <h2>Resources</h2>
-      <div className="grid grid-cols-[1fr,1px,1fr,1px,1fr] gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr,1px,1fr,1px,1fr] gap-8">
         <div className="flex flex-col gap-2 items-center">
           <h3>Reading material</h3>
           <p>
@@ -20,7 +20,7 @@ const Resources = () => {
             <Link href="/paper">Presto: SQL on Everything</Link>
           </p>
         </div>
-        <div className="h-full w-[1px] bg-pink-900"></div>
+        <div className="h-[1px] lg:h-full w-full lg:w-[1px] bg-pink-900"></div>
         <div className="flex flex-col gap-2 items-center">
           <h3>Community chat</h3>
           <p>
@@ -30,7 +30,7 @@ const Resources = () => {
           </p>
           <Button className="mt-4">Join us on Slack</Button>
         </div>
-        <div className="h-full w-[1px] bg-pink-900"></div>
+        <div className="h-[1px] lg:h-full w-full lg:w-[1px] bg-pink-900"></div>
         <div className="flex flex-col gap-2 items-center">
           <h3>Subscribe to our blog</h3>
           <p>

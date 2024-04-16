@@ -4,7 +4,7 @@ const UseCases = () => {
   return (
     <Section>
       <h2> Use Cases</h2>
-      <div className="grid grid-cols-2 gap-16 w-full text-left">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-16 w-full text-left">
         {useCases.map((item) => (
           <div className="bg-background border-l-2 border-l-pink rounded-lg p-8">
             <h3>{item.title}</h3>
