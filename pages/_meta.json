@@ -13,7 +13,10 @@
   },
   "get-started": {
     "title": "Get started",
-    "type": "page"
+    "type": "page",
+    "theme": {
+      "layout": "raw"
+    }
   },
   "ecosystem": {
     "title": "Ecosystem",

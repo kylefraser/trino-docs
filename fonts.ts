@@ -7,7 +7,7 @@ export const alata = Alata({
 });
 
 export const roboto = Roboto({
-  weight: ['400', '500'],
+  weight: ['400', '500', '700'],
   subsets: ['latin'],
   display: 'swap',
 });
