@@ -1,0 +1,1012 @@
+[
+  {
+    "name": "AdLibertas",
+    "highlight": false,
+    "anchor": "adlibertas",
+    "logo": "/images/logos/adlibertas.png",
+    "logosmall": "/images/logos/adlibertas-small.png",
+    "testimonial": "AdLibertas relies on Trino to power comprehensive user-level Audience\nReporting for app developers. Trino allows our customers to create\neasy-to-use and visual user LTV reports across their large app user\ndatasets. Since the scale and scope of these reports can widely vary,\nTrino’s ability to quickly scale on distributed systems and query across our\ndata lake makes access fast and affordable for all sizes of clients without\nmessy and expensive ETL.\n",
+    "links": [
+      {
+        "urltext": "View the AdLibertas website",
+        "url": "https://www.adlibertas.com/"
+      },
+      {
+        "urltext": "More about audience reporting",
+        "url": "https://www.adlibertas.com/audience-reporting/"
+      }
+    ]
+  },
+  {
+    "name": "Alphaa AI",
+    "highlight": false,
+    "anchor": "alphaa-ai",
+    "logo": "/images/logos/alphaa-ai.png",
+    "logosmall": "/images/logos/alphaa-ai-small.png",
+    "links": [
+      {
+        "urltext": "View the Alphaa AI website",
+        "url": "https://www.alphaa.ai/"
+      }
+    ]
+  },
+  {
+    "name": "AWS",
+    "highlight": true,
+    "anchor": "aws",
+    "logo": "/images/logos/aws.png",
+    "logosmall": "/images/logos/aws-small.png",
+    "testimonial": "Amazon Web Services (AWS) is widely used for deploying and running Trino.\nAmazon Athena or Amazon EMR embed Trino for your usage.\n\n**Amazon Athena** is a serverless, interactive analytics service built on\nopen-source frameworks, supporting open-table and file formats. Athena\nprovides a simplified, flexible way to analyze petabytes of data where it\nlives. Analyze data or build applications from an Amazon Simple Storage\nService (S3) data lake and 30 data sources, including on-premises data\nsources or other cloud systems using SQL or Python. Athena is built on\nopen-source Trino and Presto engines and Apache Spark frameworks, with no\nprovisioning or configuration effort required.\n\n**Amazon EMR** provides a managed Hadoop framework that makes it easy, fast,\nand cost-effective to process vast amounts of data across dynamically\nscalable Amazon EC2 instances. With EMR, you can launch a large Trino\ncluster in minutes. You don't need to worry about node provisioning, cluster\nsetup or tuning. Using Trino on EMR provides these benefits to customers:\n\n* Elasticity: With Amazon EMR, you can provision one, hundreds, or\nthousands of compute instances to process data at any scale. You can easily\nincrease or decrease the number of instances manually or with auto scaling,\nand you only pay for what you use.\n* Simple and predictable pricing: You pay a per-second rate for every second\nused, with a one-minute minimum charge.\n",
+    "links": [
+      {
+        "urltext": "View the Amazon AWS website",
+        "url": "https://aws.amazon.com/"
+      },
+      {
+        "urltext": "Amazon Athena",
+        "url": "https://aws.amazon.com/athena/"
+      },
+      {
+        "urltext": "Amazon EMR",
+        "url": "https://aws.amazon.com/emr/"
+      },
+      {
+        "urltext": "Deploying Trino on EKS blueprint",
+        "url": "https://awslabs.github.io/data-on-eks/docs/blueprints/distributed-databases/trino"
+      }
+    ]
+  },
+  {
+    "name": "Ampool",
+    "highlight": false,
+    "anchor": "ampool",
+    "logo": "/images/logos/ampool.png",
+    "logosmall": "/images/logos/ampool-small.png",
+    "testimonial": "Ampool is powered by Trino to provide SQL query federation across 200+ data\nsources. Combined with Ampool’s high-performance in-memory distributed\ncaching engine, a turbocharged Trino query engine can speedup BI & ad-hoc\nanalytical workloads by an order of magnitude. Ampool is built from the\nground up to operate seamlessly in hybrid and multi-cloud environments.\n",
+    "links": [
+      {
+        "urltext": "View the Ampool website",
+        "url": "https://www.ampool-inc.com/"
+      }
+    ]
+  },
+  {
+    "name": "Backblaze",
+    "highlight": false,
+    "anchor": "backblaze",
+    "logo": "/images/logos/backblaze.png",
+    "logosmall": "/images/logos/backblaze-small.png",
+    "links": [
+      {
+        "urltext": "View the Backblaze website",
+        "url": "https://www.backblaze.com/"
+      },
+      {
+        "urltext": "Storing and Querying Analytical Data in Backblaze B2 and Trino",
+        "url": "https://www.backblaze.com/blog/storing-and-querying-analytical-data-in-backblaze-b2/"
+      }
+    ]
+  },
+  {
+    "name": "Bazaar Technologies",
+    "highlight": false,
+    "anchor": "bazaar_technologies",
+    "logo": "/images/logos/bazaar-technologies.png",
+    "logosmall": "/images/logos/bazaar-technologies-small.png",
+    "testimonial": "At Bazaar, we are working to digitize Pakistan's retail sector. Trino is the\nengine that powers the Bazaar Analytics Platform (aka Buraq). Buraq handles\npetabytes of data from a diverse set of data stores from Hive, S3 Lakes, RDS\nand Redshift. Trino allows us to build a scalable lake house architecture,\nthat drives real time insights and machine learning workloads helping us to\nprovide best in class customer experience.\n",
+    "links": [
+      {
+        "urltext": "View the Bazaar Technologies website",
+        "url": "https://www.bazaar-tech.com/"
+      },
+      {
+        "urltext": "Powering Bazaar`s business operation using Trino at Trino Summit 2023",
+        "url": "https://www.youtube.com/watch?v=MYLepz-hIys"
+      }
+    ]
+  },
+  {
+    "name": "BlueCat",
+    "highlight": false,
+    "anchor": "bluecat",
+    "logo": "/images/logos/bluecat.png",
+    "logosmall": "/images/logos/bluecat-small.png",
+    "links": [
+      {
+        "urltext": "View the BlueCat website",
+        "url": "https://bluecatnetworks.com/"
+      },
+      {
+        "urltext": "Interview with Cory Darby from BlueCat as guest on Trino Comunity Broadcast 19",
+        "url": "https://trino.io/episodes/19.html"
+      },
+      {
+        "urltext": "BlueCat interview at Trino meetup",
+        "url": "https://youtu.be/7P1qqhgzNbA"
+      }
+    ]
+  },
+  {
+    "name": "Chasing Securities",
+    "highlight": false,
+    "anchor": "chasing_securities",
+    "logo": "/images/logos/chasing-securities.png",
+    "logosmall": "/images/logos/chasing-securities-small.png",
+    "testimonial": "The Chasing Securities Data Center uses Trino as the crucial general data\nquery and data processing engine. Thousands of jobs per day use Trino to\ncomplete data processing from the ODS layer to the EDW layer, and they use\nTrino as their Ad-Hoc query service for the company. They also use Trino as\nthe backend query engine for the data service API provided to other\ndepartments.\n\nChasing Securities also uses Trino to connect to nearly 100 data sources as\nthe federal query engine, including Oracle, SQL Server, MySQL, HBase, and\nmany more, and have developed hundreds of security industry-related UDF\nfunctions on Trino, which are used to add to meet various business needs.\n",
+    "links": [
+      {
+        "urltext": "View the Chasing Securities website",
+        "url": "https://www.cfzq.com/"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Chef Labs",
+    "highlight": false,
+    "anchor": "cloud_chef_labs",
+    "logo": "/images/logos/cloud-chef-labs.png",
+    "logosmall": "/images/logos/cloud-chef-labs-small.png",
+    "testimonial": "Cloud Chef Labs's DataRoaster provides data platforms running on Kubernetes\nto build a data lake and AI-based analytics platform. Trino is one of the\ncomponents provided by DataRoaster as an interactive query engine to query\nthe data lake. Users run Trino in DataRoaster as a cost-effective\nalternative to serverless services provided by other cloud providers.\n",
+    "links": [
+      {
+        "urltext": "View the Cloud Chef Labs website",
+        "url": "http://www.cloudchef-labs.com/"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Kitchens",
+    "highlight": false,
+    "anchor": "cloud-kitchens",
+    "logo": "/images/logos/cloud-kitchens.png",
+    "logosmall": "/images/logos/cloud-kitchens-small.png",
+    "links": [
+      {
+        "urltext": "View the Cloud Kitchens website",
+        "url": "https://cloudkitchens.com/"
+      }
+    ]
+  },
+  {
+    "name": "Datappeal",
+    "highlight": false,
+    "anchor": "datappeal",
+    "logo": "/images/logos/datappeal.png",
+    "logosmall": "/images/logos/datappeal-small.png",
+    "testimonial": "The Data Appeal Company is a data provider that analyzes geospatial,\nbusiness information, and customer perception data\nfor any point of interest worldwide. Data Appeal leverages Trino\nhigh-performance capabilities to power its data analysis platform,\nproviding an interactive location intelligence visualization for customers.\nTrino also enables our data scientists to query our various datasources\nwith complete transparency, which in turn yields applicable,\ndata-driven insights.\n",
+    "links": [
+      {
+        "urltext": "View the Datappeal website",
+        "url": "https://datappeal.io/"
+      }
+    ]
+  },
+  {
+    "name": "datasapiens",
+    "highlight": false,
+    "anchor": "datasapiens",
+    "logo": "/images/logos/datasapiens.png",
+    "logosmall": "/images/logos/datasapiens-small.png",
+    "testimonial": "At datasapiens, we help your company to become a data-driven organization.\nTrino is at the core of that endeavour and is our primary data retrieval\nengine. We use it on top of various data sources from diverse industries\nincluding retail, gastronomy, travel and others. Trino unifies a diverse set\nof data stores such as Apache Hive, PostgreSQL, Apache Pinot, and Redshift.\nIt allows us to build a scalable lakehouse architecture providing insights\nto thousands of satisfied users.\n",
+    "links": [
+      {
+        "urltext": "View the datasapiens website",
+        "url": "https://www.datasapiens.co.uk/"
+      }
+    ]
+  },
+  {
+    "name": "DiDi",
+    "highlight": true,
+    "anchor": "didi",
+    "logo": "/images/logos/didi.png",
+    "logosmall": "/images/logos/didi-small.png",
+    "testimonial": "With its excellent data processing capability and high performance, Trino\nhas a wide range of applications in DiDi. Currently, Trino processes over\none million queries every day.\n",
+    "links": [
+      {
+        "urltext": "View the DiDi website",
+        "url": "https://www.didiglobal.com/"
+      }
+    ]
+  },
+  {
+    "name": "Dune",
+    "highlight": false,
+    "anchor": "dune",
+    "logo": "/images/logos/dune.png",
+    "logosmall": "/images/logos/dune-small.png",
+    "testimonial": "Dune is a web-based platform that allows you to query public blockchain data\nand aggregate it into beautiful dashboards. DuneSQL, based on the\nopen-source Trino engine, is the custom-built query engine for efficient\nanalysis of blockchain data.\n",
+    "links": [
+      {
+        "urltext": "Dune",
+        "url": "https://dune.com/"
+      },
+      {
+        "urltext": "Dune SQL",
+        "url": "https://dune.com/docs/query/DuneSQL-reference/"
+      },
+      {
+        "urltext": "Dune SQL presentation at Trino Fest 2023",
+        "url": "https://trino.io/blog/2023/07/14/trino-fest-2023-dune"
+      }
+    ]
+  },
+  {
+    "name": "Eventbrite",
+    "highlight": false,
+    "anchor": "event-brite",
+    "logo": "/images/logos/eventbrite.png",
+    "logosmall": "/images/logos/eventbrite-small.png",
+    "links": [
+      {
+        "urltext": "View the Eventbrite website",
+        "url": "https://www.eventbrite.com/"
+      },
+      {
+        "urltext": "Teaching new Presto performance tricks to the Old-School DBA",
+        "url": "https://www.eventbrite.com/engineering/teaching-new-presto-performance-tricks-to-the-old-school-dba/"
+      },
+      {
+        "urltext": "More related blog posts",
+        "url": "https://www.eventbrite.com/engineering/?s=presto"
+      }
+    ]
+  },
+  {
+    "name": "Electronic Arts",
+    "highlight": true,
+    "anchor": "electronic_arts",
+    "logo": "/images/logos/electronic-arts.png",
+    "logosmall": "/images/logos/electronic-arts-small.png",
+    "links": [
+      {
+        "urltext": "View the Electronic Arts website",
+        "url": "https://www.ea.com/"
+      },
+      {
+        "urltext": "How EA migrated 150+ million partitions from HMS to AWS Glue at Trino Summit 2023",
+        "url": "https://www.youtube.com/watch?v=EF56Ia_hwlo"
+      },
+      {
+        "urltext": "Electronic Arts interview at Trino meetup August 2022",
+        "url": "https://www.youtube.com/watch?v=KY5DhWSqjGg"
+      }
+    ]
+  },
+  {
+    "name": "Flippa",
+    "highlight": false,
+    "anchor": "flippa",
+    "logo": "/images/logos/flippa.png",
+    "logosmall": "/images/logos/flippa-small.png",
+    "links": [
+      {
+        "urltext": "View the Flippa website",
+        "url": "https://www.flippa.com/"
+      }
+    ],
+    "testimonial": "Flippa.com is the #1 marketplace to buy and sell online businesses such as\ne-commerce stores, blogs, affiliate sites, SaaS businesses, apps, and more.\nEstablished in 2009, we have over 15 years of historical data we are able to\nuse for baseline comparisons in our insights reports, and to power our AI\nbuyer matching functionality, among many other things. Trino sits between\nour various data sources and our business analytics, reporting, and ML\ninfrastructure, enabling us to work at speed across vast amounts of data\nwith minimal complexity and operational overhead. Switching to Trino from\nour old, traditional data lake solution has saved us thousands of dollars\nper month, and we've been using Trino in production successfully since 2022.\nWe continue to double down on our usage and adoption of Trino and would\nabsolutely recommend it!\n"
+  },
+  {
+    "name": "ForePaaS",
+    "highlight": false,
+    "anchor": "forepaas",
+    "logo": "/images/logos/forepaas.png",
+    "logosmall": "/images/logos/forepaas-small.png",
+    "links": [
+      {
+        "urltext": "View the ForePaaS website",
+        "url": "https://www.forepaas.com/"
+      },
+      {
+        "urltext": "Yu Teng from ForePaaS presenting at Trino Fest 2023",
+        "url": "https://trino.io/blog/2023/07/12/trino-fest-2023-let-it-snow-recap"
+      }
+    ],
+    "testimonial": "ForePaaS leverages Trino as its main query engine technology. ForePaaS\nprovides a lakehouse platform that can run on multiple open-source storage\nengines. The Trino-powered query engine allows users to run unified\nanalytics and BI at petabyte scale on their lakehouse and directly-queryable\ndata sources at lightning speeds. Trino also enforces the automated data\naccess control so that analytics end-users only see the data relevant to\nthem.\n"
+  },
+  {
+    "name": "Gett",
+    "highlight": true,
+    "anchor": "gett",
+    "logo": "/images/logos/gett.png",
+    "logosmall": "/images/logos/gett-small.png",
+    "testimonial": "As the leading ground travel platform for businesses, Gett uses Trino as the\ncore SQL engine for all data pipelines. Extracting data from heterogeneous\nsources, transforming it with the rich analytical functions and loading\nresults to the visualisation tools to get wiser business decisions.\n",
+    "links": [
+      {
+        "urltext": "View the Gett website",
+        "url": "https://gett.com/intl/"
+      }
+    ]
+  },
+  {
+    "name": "Goldman Sachs",
+    "highlight": true,
+    "anchor": "goldman_sachs",
+    "logo": "/images/logos/goldman-sachs.png",
+    "logosmall": "/images/logos/goldman-sachs-small.png",
+    "links": [
+      {
+        "urltext": "View the Goldman Sachs website",
+        "url": "https://developer.gs.com/"
+      },
+      {
+        "urltext": "Goldman Sachs blog post about Trino usage",
+        "url": "https://developer.gs.com/blog/posts/enabling-highly-available-trino-clusters-at-goldman-sachs"
+      },
+      {
+        "urltext": "Leveraging Trino to power data at Goldman Sachs at Trino Summit 2022",
+        "url": "https://trino.io/blog/2022/12/05/trino-summit-2022-goldman-sachs-recap.html"
+      }
+    ]
+  },
+  {
+    "name": "Google Cloud",
+    "highlight": false,
+    "anchor": "google-cloud",
+    "logo": "/images/logos/google-cloud.png",
+    "logosmall": "/images/logos/google-cloud-small.png",
+    "testimonial": "Google Cloud is widely used for deploying and running Trino. Dataproc\nsupports embedding Trino for your usage in combination with other systems on\nGoogle Cloud. Trino also supports connecting to numerous data sources on\nGoogle Cloud including Google BigQuery.\n",
+    "links": [
+      {
+        "urltext": "View the Google Cloud website",
+        "url": "https://cloud.google.com/"
+      },
+      {
+        "urltext": "Dataproc and Trino tutorial",
+        "url": "https://cloud.google.com/dataproc/docs/tutorials/trino-dataproc"
+      }
+    ]
+  },
+  {
+    "name": "Grab",
+    "highlight": true,
+    "anchor": "grab",
+    "logo": "/images/logos/grab.png",
+    "logosmall": "/images/logos/grab-small.png",
+    "links": [
+      {
+        "urltext": "View the Grab website",
+        "url": "https://www.grab.com/"
+      },
+      {
+        "urltext": "Grab engineering blog post",
+        "url": "https://engineering.grab.com/scaling-like-a-boss-with-presto"
+      }
+    ]
+  },
+  {
+    "name": "Hudson River Trading",
+    "highlight": false,
+    "anchor": "hrt",
+    "logo": "/images/logos/hudson-river-trading.png",
+    "logosmall": "/images/logos/hudson-river-trading-small.png",
+    "links": [
+      {
+        "urltext": "View the Hudson River Trading website",
+        "url": "https://www.hudsonrivertrading.com/"
+      }
+    ]
+  },
+  {
+    "name": "Index Exchange",
+    "highlight": false,
+    "anchor": "index-exchange",
+    "logo": "/images/logos/index-exchange.png",
+    "logosmall": "/images/logos/index-exchange-small.png",
+    "testimonial": "Index Exchange is a global advertising marketplace that generates and\nprocesses trillions of events per day. We are leveraging Trino to complement\nour reporting infrastructure in a few ways self-service data analysis of\naggregated data, internal BI reporting, and as an access point for\ninvestigation of event-level records. As the exchange grows, so too will\nTrino as one of our critical architectural solutions.\n",
+    "links": [
+      {
+        "urltext": "View the Index Exchange website",
+        "url": "https://www.indexexchange.com/"
+      }
+    ]
+  },
+  {
+    "name": "Jampp",
+    "highlight": false,
+    "anchor": "jampp",
+    "logo": "/images/logos/jampp.png",
+    "logosmall": "/images/logos/jampp-small.png",
+    "testimonial": "Jampp employs Trino as the main interface between its Data Warehouse and the\nrest of the company, using it to feed their predictive algorithms as well as\nperforming analytic queries, ETLs and monitoring data quality.\n",
+    "links": [
+      {
+        "urltext": "View the Jampp website",
+        "url": "https://jampp.com/"
+      }
+    ]
+  },
+  {
+    "name": "JioSaavn",
+    "highlight": true,
+    "anchor": "jiosaavn",
+    "logo": "/images/logos/jiosaavn.png",
+    "logosmall": "/images/logos/jiosaavn-small.png",
+    "testimonial": "At JioSaavn, Trino plays a pivotal role in the data engineering stack and is\nthe central integrated hub for all the data needs. It is used in ETL\nprocessing since its performance is much better than Hive and Spark for\ncertain use cases. Trino analyzes billions of events logged everyday and\ngenerates insights with adhoc analytical queries. It is also very useful to\nquery data from various databases like MongoDB, Cassandra, and MySQL. Trino\nis also extensively used to power BI tools and dashboards from both ETL\npipeline data in ORC and Parquet files and real-time data using the Pinot\nand Druid connector.\n",
+    "links": [
+      {
+        "urltext": "View the JioSaavn website",
+        "url": "https://www.jiosaavn.com"
+      }
+    ]
+  },
+  {
+    "name": "Instacart",
+    "highlight": true,
+    "anchor": "instacart",
+    "logo": "/images/logos/instacart.png",
+    "logosmall": "/images/logos/instacart-small.png",
+    "links": [
+      {
+        "urltext": "View the Instacart website",
+        "url": "https://www.instacart.com"
+      }
+    ]
+  },
+  {
+    "name": "LINE",
+    "highlight": false,
+    "anchor": "line",
+    "logo": "/images/logos/line.png",
+    "logosmall": "/images/logos/line-small.png",
+    "testimonial": "Trino is a core piece of LINE’s BI tools and interactive analysis workflow.\nIt is being actively used in areas such as KPI and system metrics\nmonitoring, as well as data analytics for large datasets. Trino is the\npreferred tool for our ML engineers and data scientists to better understand\nthe data on our datalake through fast, interactive queries.\n",
+    "links": [
+      {
+        "urltext": "View the LINE website",
+        "url": "https://linecorp.com/en"
+      }
+    ]
+  },
+  {
+    "name": "LinkedIn",
+    "highlight": true,
+    "anchor": "linkedin",
+    "logo": "/images/logos/linkedin.png",
+    "logosmall": "/images/logos/linkedin-small.png",
+    "testimonial": "Trino is the de-facto ad-hoc and interactive analytics engine at LinkedIn\nthat enables fast exploration and analysis of data stored in massive data\nlake. Every month thousands of users from across the company issue millions\nof queries scanning 100s of petabytes of data from a host of clients,\nincluding programmatic access from internal applications.\n",
+    "links": [
+      {
+        "urltext": "View the LinkedIn website",
+        "url": "https://linkedin.com"
+      },
+      {
+        "urltext": "Trino upgrade at exabytes scale at Trino Summit 2023",
+        "url": "https://www.youtube.com/watch?v=dg16M6bFN2w"
+      },
+      {
+        "urltext": "Interview with LinkedIn engineers at Trino Community Broadcast 22",
+        "url": "https://trino.io/episodes/22.html"
+      }
+    ]
+  },
+  {
+    "name": "Lyft",
+    "highlight": true,
+    "anchor": "lyft",
+    "logo": "/images/logos/lyft.png",
+    "logosmall": "/images/logos/lyft-small.png",
+    "links": [
+      {
+        "urltext": "View the Lyft website",
+        "url": "https://lyft.com"
+      },
+      {
+        "urltext": "Transitioning to Trino - Evaluating Lyft’s query engine capabilities at Trino Summit 2023",
+        "url": "https://www.youtube.com/watch?v=_wocf0NK6Kc"
+      },
+      {
+        "urltext": "Trino for large scale ETL at Lyft at Trino Summit 2022",
+        "url": "https://trino.io/blog/2022/12/12/trino-summit-2022-lyft-recap.html"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft Azure",
+    "highlight": false,
+    "anchor": "microsoft-azure",
+    "logo": "/images/logos/microsoft-azure.png",
+    "logosmall": "/images/logos/microsoft-azure-small.png",
+    "testimonial": "Microsoft Azure is widely used for deploying and running Trino. Azure\nHDInsights on AKS embeds Trino for your usage in combination with other\nsystems on Azure. Trino also supports connecting to numerous data sources on Azure.\n",
+    "links": [
+      {
+        "urltext": "View the Microsoft Azure website",
+        "url": "https://azure.microsoft.com/"
+      },
+      {
+        "urltext": "Azure HDInsights on AKS announcement",
+        "url": "https://azure.microsoft.com/en-us/blog/manage-your-big-data-needs-with-hdinsight-on-aks/"
+      }
+    ]
+  },
+  {
+    "name": "MoEngage",
+    "highlight": false,
+    "anchor": "moengage",
+    "logo": "/images/logos/moengage.png",
+    "logosmall": "/images/logos/moengage-small.png",
+    "links": [
+      {
+        "urltext": "View the MoEngage website",
+        "url": "https://www.moengage.com/"
+      }
+    ]
+  },
+  {
+    "name": "Myntra",
+    "highlight": false,
+    "anchor": "myntra",
+    "logo": "/images/logos/myntra.png",
+    "logosmall": "/images/logos/myntra-small.png",
+    "testimonial": "Myntra is among India's leading e-commerce platforms for fashion, beauty,\nand lifestyle. An integral part of the Flipkart Group, Myntra brings\ntogether technology and fashion to create the best experience for its\nfashion-forward customers, helping them look good. In alignment with our\ndata-first organizational culture, Trino has been an incredible partner in\nour efforts to democratize data. Our teams run thousands of queries every\nday on petabytes of data right out of our in-house datalake. It has grown to\nbe a critical component within our Myntra Data Platform (MDP) powering a\nwide array of workloads ranging from ad-hoc to batch queries.\n",
+    "links": [
+      {
+        "urltext": "View the Myntra website",
+        "url": "https://www.myntra.com/"
+      }
+    ]
+  },
+  {
+    "name": "Naver",
+    "highlight": true,
+    "anchor": "naver",
+    "logo": "/images/logos/naver.png",
+    "logosmall": "/images/logos/naver-small.png",
+    "testimonial": "Naver Corporation is a global ICT company, providing South Korea’s number\none search portal \"NAVER\". Naver uses Trino for data analytics and business\nintelligence (BI) purposes. Trino provides data scientists with quick access\nto their data lake, via a standard SQL interface. Trino process massive\namounts of data from different sources, such as user logs and clickstream\ndata, in real-time.\n",
+    "links": [
+      {
+        "urltext": "View the Naver website",
+        "url": "https://www.navercorp.com/en"
+      }
+    ]
+  },
+  {
+    "name": "Netflix",
+    "highlight": true,
+    "anchor": "netflix",
+    "logo": "/images/logos/netflix.png",
+    "logosmall": "/images/logos/netflix-small.png",
+    "links": [
+      {
+        "urltext": "View the Neflix website",
+        "url": "https://www.netflix.com"
+      },
+      {
+        "urltext": "Interview with Netflix engineer about views at Trino Community Broadcast 18",
+        "url": "https://trino.io/episodes/18.html"
+      },
+      {
+        "urltext": "Interview with Netflix engineers about Apache Druid at Trino Community Broadcast 16",
+        "url": "https://trino.io/episodes/16.html"
+      }
+    ]
+  },
+  {
+    "name": "Nielsen",
+    "highlight": true,
+    "anchor": "nielsen",
+    "logo": "/images/logos/nielsen.png",
+    "logosmall": "/images/logos/nielsen-small.png",
+    "testimonial": "Nielsen Media is the market leader for measuring audiences, predicting\noutcomes and powering contents. Nielsen uses Trino as a query engine over\nits petabyte-scale data lake, serving batch and interactive use cases for\nproducts, modelling, research and testing. Trino’s open source nature also\nallows Nielsen to customize it to handle a wide spectrum of business needs.\n",
+    "links": [
+      {
+        "urltext": "View the Nielsen website",
+        "url": "https://www.nielsen.com/"
+      }
+    ]
+  },
+  {
+    "name": "NTT Communications",
+    "highlight": true,
+    "anchor": "nttcommunications",
+    "logo": "/images/logos/ntt-communications.png",
+    "logosmall": "/images/logos/ntt-communications-small.png",
+    "testimonial": "NTT Communications' telecom and internet services are powered by analysis on\nTrino. Trino enables interactive analytics over tables of terabytes in size\nwhich drive BI dashboards. The seamless feature to connect multiple data\nsources and query interactiveness are some of the driving factors that make\nTrino a pivotal technology of data analysis at NTT Communications.\n",
+    "links": [
+      {
+        "urltext": "View the NTT Communications website",
+        "url": "https://www.ntt.com/en/index.html"
+      }
+    ]
+  },
+  {
+    "name": "Pinterest",
+    "highlight": true,
+    "anchor": "pinterest",
+    "logo": "/images/logos/pinterest.png",
+    "logosmall": "/images/logos/pinterest-small.png",
+    "links": [
+      {
+        "urltext": "View the Pinterest website",
+        "url": "https://www.pinterest.com/"
+      },
+      {
+        "urltext": "Pinterest journey to achieving 2x efficiency improvement on Trino at Trino Summit 2023",
+        "url": "https://www.youtube.com/watch?v=RC8K6pIvAtI"
+      },
+      {
+        "urltext": "Pinterest presentation at Trino Summit 2020",
+        "url": "https://trino.io/blog/2020/07/22/presto-summit-pinterest.html"
+      },
+      {
+        "urltext": "Presto at Pinterest",
+        "url": "https://medium.com/pinterest-engineering/presto-at-pinterest-a8bda7515e52"
+      }
+    ]
+  },
+  {
+    "name": "QuintoAndar",
+    "highlight": true,
+    "anchor": "quintoandar",
+    "logo": "/images/logos/quintoandar.png",
+    "logosmall": "/images/logos/quintoandar-small.png",
+    "links": [
+      {
+        "urltext": "View the QuintoAndar website",
+        "url": "https://www.quintoandar.com.br/"
+      },
+      {
+        "urltext": "Building a SQL Engine Infrastructure at QuintoAndar",
+        "url": "https://medium.com/quintoandar-tech-blog/building-a-sql-engine-infrastructure-at-quintoandar-73540e136c4e"
+      }
+    ]
+  },
+  {
+    "name": "Peaka",
+    "highlight": false,
+    "anchor": "peaka",
+    "logo": "/images/logos/peaka.png",
+    "logosmall": "/images/logos/peaka-small.png",
+    "testimonial": "Peaka is a Zero-ETL data integration platform. It integrates more than 300\nSaaS tools, relational and NoSQL databases, and allows users to query them.\nPeaka includes the ability to query this variety of data sources for a\nsingle source of truth without moving it out of its original location. It\nsupports caching on Iceberg, streaming ingestion and ability to create\ninstant replicas of data sources on Iceberg.\n\nTrino is at the heart of Peaka and enables many of these features.\n",
+    "links": [
+      {
+        "urltext": "View the Peaka website",
+        "url": "https://www.peaka.com/"
+      }
+    ]
+  },
+  {
+    "name": "Plural",
+    "highlight": false,
+    "anchor": "plural",
+    "logo": "/images/logos/plural.png",
+    "logosmall": "/images/logos/plural-small.png",
+    "testimonial": "Plural creates the future of open-source infrastructure. Plural is an\nopen-source, self-hosting framework that allows you to deploy Trino on your\nown cloud infrastructure.\n\nPlural provides a flexible, scalable solution to application delivery that\ngives you the autonomy you need to build and reconfigure the software you\nuse freely. Plural includes support for Trino. It provides automated upgrade\ndelivery, Terraform/Helm management, interactive runbooks, autoscaling, and\nall the features you’d expect out of a managed service for free.\nAdditionally, Plural manages all the complexities with deployment on\nKubernetes, providing sane defaults and interfaces for first-time K8s users\nand experienced users alike. Your access to your infrastructure as code is\ncompletely transparent, so all your configuration is fully ejectable from\nthe Plural platform.\n",
+    "links": [
+      {
+        "urltext": "View the Plural website",
+        "url": "https://www.plural.sh/"
+      },
+      {
+        "urltext": "Installing Trino with Plural",
+        "url": "https://docs.plural.sh/applications/trino"
+      }
+    ]
+  },
+  {
+    "name": "Raft",
+    "highlight": false,
+    "anchor": "raft",
+    "logo": "/images/logos/raft.png",
+    "logosmall": "/images/logos/raft-small.png",
+    "testimonial": "Trino provides Raft with a distributed query engine that can be deployed to\nthe most secure networks of the Department of Defense. We work in an\nenvironment which data is highly siloed by nature. Trino provides a scalable\nsolution to drive decisions from data coming from the edge which can connect\nto virtually any source. It is key to our strategy of deploying a Data\nFabric, reducing the time to insights for our customers, and in return lower\ntheir operating costs.\n",
+    "links": [
+      {
+        "urltext": "View the Raft website",
+        "url": "https://goraft.tech"
+      },
+      {
+        "urltext": "Avoiding pitfalls with query federation in data lakehouses at Trino Summit 2023",
+        "url": "https://www.youtube.com/watch?v=6KspMwCbOfI"
+      },
+      {
+        "urltext": "Interview with Raft engineers at Trino Community Broadcast 39",
+        "url": "https://trino.io/episodes/39.html"
+      }
+    ]
+  },
+  {
+    "name": "Rapido",
+    "highlight": false,
+    "anchor": "rapido",
+    "logo": "/images/logos/rapido.png",
+    "logosmall": "/images/logos/rapido-small.png",
+    "testimonial": "As India’s largest bike taxi service, Rapido uses Trino to provide SQL query\nfederation across various data sources, and as SQL engine in various data\npipelines. It is being actively used in areas such as KPI and system metrics\nmonitoring, as well as data analytics for large datasets. Trino is a core\npiece of Rapido’s data platform to provide interactive analysis workflow and\nvisualisation with Metabase and Superset.\n",
+    "links": [
+      {
+        "urltext": "View the Rapido website",
+        "url": "https://rapido.bike/"
+      }
+    ]
+  },
+  {
+    "name": "Razorpay",
+    "highlight": true,
+    "anchor": "razorpay",
+    "logo": "/images/logos/razorpay.png",
+    "logosmall": "/images/logos/razorpay-small.png",
+    "testimonial": "We chose Trino because it is fast, scalable, and integrates well within our\necosystem. We use Apache Spark and Hudi to replicate data from OLTP\ndatabases and ingest events emitted by microservices in our AWS S3 data lake\nwhile using Hive Metastore to store table definitions and metadata. Trino\nmade it easy to query these raw tables and derive insights from them as our\nusers were already comfortable with SQL.\n",
+    "links": [
+      {
+        "urltext": "View the Razorpay website",
+        "url": "https://razorpay.com/"
+      },
+      {
+        "urltext": "Razorpay blog post about Trino usage",
+        "url": "https://engineering.razorpay.com/how-trino-and-alluxio-power-analytics-at-razorpay-803d3386daaf"
+      }
+    ]
+  },
+  {
+    "name": "Red Hat",
+    "highlight": true,
+    "anchor": "redhat",
+    "logo": "/images/logos/redhat.png",
+    "logosmall": "/images/logos/redhat-small.png",
+    "links": [
+      {
+        "urltext": "View the Red Hat website",
+        "url": "https://redhat.com/"
+      },
+      {
+        "urltext": "Fix your data bottlenecks with Trino, Hive, and S3",
+        "url": "https://www.youtube.com/watch?v=M_1A-MEwi6Y"
+      }
+    ]
+  },
+  {
+    "name": "Resurface",
+    "highlight": false,
+    "anchor": "resurface",
+    "logo": "/images/logos/resurface.png",
+    "logosmall": "/images/logos/resurface-small.png",
+    "testimonial": "Resurface uses Trino to turn every API call into a durable, observable\ntransaction. Resurface makes it easy to create a complete system of record\nfor your API calls, to speed escalations, improve CX, and enable data\nscience, without any third-party data transfer. Trino gives us the\nflexibility to support very small or very large installations, and integrate\nwith other customer systems, behind a consistent SQL interface. We’re proud\nto be developing purpose-built connectors for Trino that deliver\nconsistently fast performance at any scale and budget.\n",
+    "links": [
+      {
+        "urltext": "View the Resurface website",
+        "url": "https://resurface.io/"
+      },
+      {
+        "urltext": "Interview with Resurface engineers at Trino Community Broadcast 39",
+        "url": "https://trino.io/episodes/17.html"
+      }
+    ]
+  },
+  {
+    "name": "Robinhood",
+    "highlight": false,
+    "anchor": "robinhood",
+    "logo": "/images/logos/robinhood.png",
+    "logosmall": "/images/logos/robinhood-small.png",
+    "links": [
+      {
+        "urltext": "View the Robinhood website",
+        "url": "https://robinhood.com/"
+      },
+      {
+        "urltext": "Interview with Robinhood engineer at Trino Community Broadcast 41",
+        "url": "https://trino.io/episodes/41.html"
+      },
+      {
+        "urltext": "Robinhood engineering blog post",
+        "url": "https://robinhood.engineering/author-balaji-varadarajan-e3f496815ebf"
+      }
+    ]
+  },
+  {
+    "name": "Salesforce",
+    "highlight": true,
+    "anchor": "salesforce",
+    "logo": "/images/logos/salesforce.png",
+    "logosmall": "/images/logos/salesforce-small.png",
+    "links": [
+      {
+        "urltext": "View the Salesforce website",
+        "url": "https://salesforce.com/"
+      },
+      {
+        "urltext": "Anomaly detection for Salesforce’s production data using Trino from Trino Fest 2023",
+        "url": "https://trino.io/blog/2023/06/26/trino-fest-2023-salesforce.html"
+      },
+      {
+        "urltext": "Salesforce enginering blog post",
+        "url": "https://engineering.salesforce.com/big-data-big-decisions-690a00fad88d"
+      }
+    ]
+  },
+  {
+    "name": "Sentinel One",
+    "anchor": "sentinel-one",
+    "highlight": false,
+    "logo": "/images/logos/sentinelone.png",
+    "logosmall": "/images/logos/sentinelone-small.png",
+    "links": [
+      {
+        "urltext": "View the Sentinel One website",
+        "url": "https://www.sentinelone.com/"
+      },
+      {
+        "urltext": "Sentinel One engineering blog post",
+        "url": "https://sentinelone-tech.medium.com/how-sentinelone-optimizes-big-data-at-scale-b957b5fa7b8a"
+      }
+    ]
+  },
+  {
+    "name": "Shopify",
+    "highlight": true,
+    "anchor": "shopify",
+    "logo": "/images/logos/shopify.png",
+    "logosmall": "/images/logos/shopify-small.png",
+    "testimonial": "At Shopify, Trino provides their data scientists with quick access to their\ndata lake, via an industry standard SQL interface that joins and aggregates\ndata across heterogeneous data sources. Shopify Trino clusters handle 15\nGbps and over 300 million rows of data per second.\n",
+    "links": [
+      {
+        "urltext": "View the Shopify engineering website",
+        "url": "https://shopify.engineering/topics/data-science-engineering"
+      },
+      {
+        "urltext": "Presentation from Shopify engineer at Trino Summit 2022",
+        "url": "https://trino.io/blog/2022/12/09/trino-summit-2022-shopify-recap.html"
+      },
+      {
+        "urltext": "Shopify's Path to a Faster Trino Query Execution - Infrastructure",
+        "url": "https://shopify.engineering/faster-trino-query-execution-infrastructure"
+      }
+    ]
+  },
+  {
+    "name": "Stackable",
+    "highlight": false,
+    "anchor": "stackable",
+    "logo": "/images/logos/stackable.png",
+    "logosmall": "/images/logos/stackable-small.png",
+    "testimonial": "Stackable provides you with a curated selection of the best open source data\napps like Apache Kafka, Apache Druid, Trino and Apache Spark. Store, process\nand visualize your data with the latest versions. All data apps work\ntogether seamlessly, and can be added or removed in no time. Based on\nKubernetes, it runs everywhere – on prem or in the cloud.\n\nUse the Stackable data platform to create unique and enterprise-class data\narchitectures. For example, it supports modern data warehouses, data lakes,\nevent streaming, machine learning or data mesh use cases.\n\nStackable offers a Trino operator for Kubernetes to easily spin up, scale,\nand maintain one or many Trino clusters that are configured to be secure\nand performant out of the box.\n",
+    "links": [
+      {
+        "urltext": "View the Stackable website",
+        "url": "https://stackable.tech/"
+      },
+      {
+        "urltext": "Stackable Operator for Trino",
+        "url": "https://github.com/stackabletech/trino-operator"
+      },
+      {
+        "urltext": "Trino-lb - Load balancer with support for routing, queueing and auto-scaling",
+        "url": "https://github.com/stackabletech/trino-lb"
+      },
+      {
+        "urltext": "Talk about Open Policy Agent and Trino from Trino Summit 2023",
+        "url": "https://www.youtube.com/watch?v=fbqqapQbAv0"
+      }
+    ]
+  },
+  {
+    "name": "Starburst",
+    "highlight": true,
+    "anchor": "starburst",
+    "logo": "/images/logos/starburst.png",
+    "logosmall": "/images/logos/starburst-small.png",
+    "testimonial": "Starburst offers a full-featured data lake analytics platform, built on open\nsource Trino. The platform includes the capabilities needed to discover,\norganize, and consume data without the need for time-consuming and costly\nmigrations. It supports the lake as the center of gravity, and additionally\naccesses data outside the lake when needed. Starburst founders and employess\ninclude the Trino co-creators, numerous maintainers, contributors and other\nexperts, ready to support you.\n\n**Starburst Galaxy** is a fully managed data lake analytics platform\ndesigned for large and complex data sets in and around your cloud data lake.\nIt is the easiest and fastest way for you to start running queries at\ninteractive speeds across data sources using the business intelligence and\nanalytics tools you already know.\n\nStarburst Galaxy takes just minutes to set up and takes care of the heavy\nlifting of designing, provisioning, maintaining, and securing your Trino\ninfrastructure.  In addition, Galaxy offers proprietary features such as\nfully managed connectors, global search, schema discovery, monitoring and\nmetrics, and data sharing with Data Products that allow your data teams to\nfocus on generating unique insights from your data – not managing and\nbuilding analytics infrastructure.\n\n**Starburst Enterprise** is a data lake analytics platform that allows\norganizations to access and analyze data on the lake and additional\nconnected sources, including cloud data warehouses, legacy and on-premise\ndatabases, and modern streaming and NoSQL sources, all through a single,\nunified interface.\n\nIt is a fully supported, production-tested and enterprise-grade distribution\nof the popular open-source project Trino. Starburst Enterprise adds\nadditional features, such as enterprise-grade security, access controls, a\nvariety of supported connectors, improved performance, and a user-friendly\ninterface.\n\nWith Starburst Enterprise, users can run ad-hoc and batch queries, build\ninteractive dashboards, and perform data exploration on a variety of data\nsources. The platform is designed to be scalable and can handle large and\ncomplex data sets that are distributed across multiple systems.\n",
+    "links": [
+      {
+        "urltext": "View the Starburst website",
+        "url": "https://www.starburst.io/"
+      },
+      {
+        "urltext": "Starburst Galaxy",
+        "url": "https://www.starburst.io/platform/starburst-galaxy/"
+      },
+      {
+        "urltext": "Starburst Galaxy documentation",
+        "url": "https://docs.starburst.io/starburst-galaxy/index.html"
+      },
+      {
+        "urltext": "Starburst Enterprise",
+        "url": "https://www.starburst.io/platform/starburst-enterprise/"
+      },
+      {
+        "urltext": "Starburst Enterprise documentation",
+        "url": "https://docs.starburst.io/starburst-enterprise/index.html"
+      }
+    ]
+  },
+  {
+    "name": "Stripe",
+    "highlight": true,
+    "anchor": "stripe",
+    "logo": "/images/logos/stripe.png",
+    "logosmall": "/images/logos/stripe-small.png",
+    "links": [
+      {
+        "urltext": "View the Stripe website",
+        "url": "https://stripe.com/"
+      },
+      {
+        "urltext": "Inspecting Trino on Ice from Stripe engineer at Trino Fest 2023",
+        "url": "https://trino.io/blog/2023/07/19/trino-fest-2023-stripe.html"
+      }
+    ]
+  },
+  {
+    "name": "Swrve",
+    "highlight": false,
+    "anchor": "swrve",
+    "logo": "/images/logos/swrve.png",
+    "logosmall": "/images/logos/swrve-small.png",
+    "testimonial": "Swrve uses Trino to power our behavioral insights system, allowing our\ncustomers to capture detailed data about user behavior in real time, in\norder to trigger personalized marketing campaigns. We needed a fast,\nreliable, SQL-based system supporting the level of fine-grained discovery of\nhigh-cardinality user behaviours that our customers demand, and Trino\nprovides exactly that.\n",
+    "links": [
+      {
+        "urltext": "View the Swrve website",
+        "url": "https://www.swrve.com/"
+      }
+    ]
+  },
+  {
+    "name": "Talkdesk",
+    "highlight": false,
+    "anchor": "talkdesk",
+    "logo": "/images/logos/talkdesk.png",
+    "logosmall": "/images/logos/talkdesk-small.png",
+    "links": [
+      {
+        "urltext": "View the Talkdesk website",
+        "url": "https://www.talkdesk.com/"
+      },
+      {
+        "urltext": "dbt and Trino in a data mesh world",
+        "url": "https://www.youtube.com/watch?v=qCOnWzOS84Y"
+      }
+    ]
+  },
+  {
+    "name": "Treasure Data",
+    "highlight": false,
+    "anchor": "treasuredata",
+    "logo": "/images/logos/treasure-data.png",
+    "logosmall": "/images/logos/treasure-data-small.png",
+    "testimonial": "Trino has been at the core of the Customer Data Platform (CDP) of Treasure\nData, and more than millions of SQL queries running every day with Trino are\nhelping our customers for analyzing their business-critical datasets and\nmaking data-driven decisions.\n",
+    "links": [
+      {
+        "urltext": "View the Treasure Data website",
+        "url": "https://www.treasuredata.com/"
+      },
+      {
+        "urltext": "Secure exchange SQL - Building a privacy-preserving data clean room service over Trino at Trino Summit 2023",
+        "url": "https://www.youtube.com/watch?v=FaytoXxKXOQ"
+      },
+      {
+        "urltext": "Arm Treasure Data presentation at Trino Summit 2020",
+        "url": "https://trino.io/blog/2020/07/06/presto-summit-arm-td.html"
+      }
+    ]
+  },
+  {
+    "name": "Valerian",
+    "highlight": false,
+    "anchor": "valerian",
+    "logo": "/images/logos/valerian.png",
+    "logosmall": "/images/logos/valerian.png",
+    "testimonial": "Valerian uses Trino as its top choice for a distributed querying engine and\nhas evolved the technology to shift seamlessly between large data\nstructures/platforms and as a replacement for standard databases such as\nMySQL, PostgreSQL, and MongoDB. Valerian works with companies and\norganizations to conduct applied Research and Development (R&D) and apply\nmodern technology to solve complex engineering challenges, even advancing\nthe state of the art. Using Trino, Valerian was able to reduce millions in\ncloud spend on relational databases for clients by augmenting Trino's use to\nfunction as a relational database on top of Object Storage with\nnear-infinite scalability. By using Trino as both a distributed querying\nengine on top of a unified data lake for AI/ML and Data Analytics as well as\nthe ACID-based transactional database layer of applications, Valerian has\nbeen able to harness Trino to create the future of Data Fabric solutions.\n",
+    "links": [
+      {
+        "urltext": "View the Valerian website",
+        "url": "https://valeriantechnology.com"
+      }
+    ]
+  },
+  {
+    "name": "Zuora",
+    "highlight": false,
+    "anchor": "zuora",
+    "logo": "/images/logos/zuora.png",
+    "logosmall": "/images/logos/zuora-small.png",
+    "links": [
+      {
+        "urltext": "View the Zuora website",
+        "url": "https://zuora.com/"
+      },
+      {
+        "urltext": "Presentation at Trino Summit 2020",
+        "url": "https://trino.io/blog/2020/06/16/presto-summit-zuora.html"
+      }
+    ]
+  }
+]

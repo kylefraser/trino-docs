@@ -40,33 +40,33 @@
     "title": "Community",
     "type": "menu",
     "items": {
-      "code-of-conduct": {
-        "title": "Code of conduct",
-        "href": "/community/code-of-conduct"
+      "slack": {
+        "title": "Slack",
+        "href": "/community/slack"
       },
       "community-broadcast": {
         "title": "Community broadcast",
         "href": "/community/community-broadcast"
       },
-      "contributors": {
-        "title": "Contributors",
-        "href": "/community/contributors"
-      },
-      "corporate-guidelines": {
-        "title": "Corporate guidelines",
-        "href": "/community/corporate-guidelines"
-      },
       "events": {
         "title": "Events",
         "href": "/community/events"
       },
-      "slack": {
-        "title": "Slack",
-        "href": "/community/slack"
-      },
       "users": {
         "title": "Users",
         "href": "/community/users"
+      },
+      "contributors": {
+        "title": "Contributors",
+        "href": "/community/contributors"
+      },
+      "code-of-conduct": {
+        "title": "Code of conduct",
+        "href": "/community/code-of-conduct"
+      },
+      "corporate-guidelines": {
+        "title": "Corporate guidelines",
+        "href": "/community/corporate-guidelines"
       }
     }
   },

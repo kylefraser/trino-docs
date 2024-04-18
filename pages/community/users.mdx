@@ -1,1 +1,32 @@
-# Users
+import { RemoteContent } from 'nextra/data';
+import { Cards, Callout, Tab, Tabs } from 'nextra-theme-docs';
+import users from 'users';
+import { buildDynamicMDX, buildDynamicMeta } from 'nextra/remote';
+
+export const getStaticProps = async () => {
+  const dynamicMdx = `## Users
+${users
+.map((user) => {
+return `### ${user.name}
+${user.testimonial ? user.testimonial : ''}
+${
+user.links
+&& user.links
+.map((link) => {
+return `[${link.urltext}](${link.url})`;
+})
+.join('<br/>')
+}
+`
+})
+.join('')}`;
+
+return { props: { ...(await buildDynamicMDX(dynamicMdx)), ...(await
+buildDynamicMeta()), }, revalidate: 10, }; };
+
+# Trino users
+
+Learn about organizations who use Trino, help with development, and are
+generally part of our community!
+
+<RemoteContent components={{ Callout, Cards, Tabs }} {...props} />

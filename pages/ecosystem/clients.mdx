@@ -5,12 +5,12 @@ import { buildDynamicMDX, buildDynamicMeta } from 'nextra/remote';
 
 export const getStaticProps = async () => {
   const dynamicMdx = `## Clients
-  ${tools
-    .map((tool) => {
-      return `### ${tool.name}
-    ${tool.description}`;
-    })
-    .join('')}`;
+${tools
+  .map((tool) => {
+    return `### ${tool.name}
+${tool.description}`;
+  })
+  .join('')}`;
   return {
     props: {
       ...(await buildDynamicMDX(dynamicMdx)),
