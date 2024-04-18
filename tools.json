@@ -1,0 +1,1754 @@
+[
+  {
+    "name": "Alluxio",
+    "anchor": "alluxio",
+    "category": "add-on",
+    "logo": "/images/logos/alluxio.png",
+    "logosmall": "/images/logos/alluxio-small.png",
+    "description": "Alluxio provides a single pane of glass for enterprises to manage data and\nAI workloads across diverse infrastructure environments with ease. Alluxio\nData Platform has two product offerings, Alluxio Enterprise Data and Alluxio\nEnterprise AI.\n\nAlluxio provides an open source object storage caching solution that is the\nbase of the file system cache support in Trino. The commercial platform with\nits distributed block-level read/write caching functionality can be used for\nfurther integration.\n",
+    "links": [
+      {
+        "urltext": "Alluxio",
+        "url": "https://www.alluxio.io/"
+      },
+      {
+        "urltext": "Interactive analytics with Trino and Alluxio product information",
+        "url": "https://www.alluxio.io/trino/"
+      },
+      {
+        "urltext": "Trino file system cache documentation",
+        "url": "https://trino.io/docs/current/object-storage/file-system-cache.html"
+      },
+      {
+        "urltext": "Documentation for Alluxio platform with Trino",
+        "url": "https://docs.alluxio.io/ee/user/stable/en/compute/Trino.html"
+      }
+    ]
+  },
+  {
+    "name": "Amazon Kinesis",
+    "anchor": "amazon-kinesis",
+    "category": "data-source",
+    "logo": "/images/logos/amazon-kinesis.png",
+    "logosmall": "/images/logos/amazon-kinesis-small.png",
+    "description": "Amazon Kinesis cost-effectively processes and analyzes streaming data at any\nscale as a fully managed service. With Kinesis, you can ingest real-time\ndata, such as video, audio, application logs, website clickstreams, and IoT\ntelemetry data, for machine learning (ML), analytics, and other\napplications.\n\nUse an Amazon Kinesis stream as a data source in Trino by configuring a\ncatalog with the Kinesis connector.\n",
+    "links": [
+      {
+        "urltext": "Amazon Kinesis",
+        "url": "https://aws.amazon.com/kinesis/"
+      },
+      {
+        "urltext": "Kinesis connector documentation",
+        "url": "https://trino.io/docs/current/connector/kinesis.html"
+      }
+    ]
+  },
+  {
+    "name": "Amazon Redshift",
+    "anchor": "amazon-redshift",
+    "category": "data-source",
+    "logo": "/images/logos/amazon-redshift.png",
+    "logosmall": "/images/logos/amazon-redshift-small.png",
+    "description": "Amazon Redshift uses SQL to analyze structured and semi-structured data\nacross data warehouses, operational databases, and data lakes, using\nAWS-designed hardware and machine learning to deliver the best price\nperformance at any scale.\n\nUse an Amazon Redshift data warehouse as a data source in Trino by\nconfiguring a catalog with the Redshift connector.\n",
+    "links": [
+      {
+        "urltext": "Amazon Redshift",
+        "url": "https://aws.amazon.com/redshift/"
+      },
+      {
+        "urltext": "Redshift connector documentation",
+        "url": "https://trino.io/docs/current/connector/redshift.html"
+      }
+    ]
+  },
+  {
+    "name": "Apache Accumulo",
+    "anchor": "apache-accumulo",
+    "category": "data-source",
+    "logo": "/images/logos/apache-accumulo.png",
+    "logosmall": "/images/logos/apache-accumulo-small.png",
+    "description": "Apache Accumulo® is a sorted, distributed key-value store that provides\nrobust, scalable data storage and retrieval.\n\nUse an Apache Accumulo key-value store as a data source in Trino by\nconfiguring a catalog with the Accumulo connector.\n",
+    "links": [
+      {
+        "urltext": "Apache Accumulo",
+        "url": "https://accumulo.apache.org/"
+      },
+      {
+        "urltext": "Accumulo connector documentation",
+        "url": "https://trino.io/docs/current/connector/accumulo.html"
+      }
+    ]
+  },
+  {
+    "name": "Apache Airflow",
+    "anchor": "apache-airflow",
+    "category": "client",
+    "logo": "/images/logos/airflow.png",
+    "logosmall": "/images/logos/airflow-small.png",
+    "description": "Airflow™ is a platform created by the community to programmatically author,\nschedule, and monitor workflows.\n",
+    "links": [
+      {
+        "urltext": "Apache Airflow",
+        "url": "https://airflow.apache.org/"
+      },
+      {
+        "urltext": "Trino provider for Apache Airflow",
+        "url": "https://airflow.apache.org/docs/apache-airflow-providers-trino/stable/index.html"
+      },
+      {
+        "urltext": "Using Trino with Apache Airflow for (almost) all your data problems from Trino Summit 2022",
+        "url": "/blog/2022/12/21/trino-summit-2022-astronomer-recap.html"
+      }
+    ]
+  },
+  {
+    "name": "Apache Cassandra",
+    "anchor": "apache-cassandra",
+    "category": "data-source",
+    "logo": "/images/logos/apache-cassandra.png",
+    "logosmall": "/images/logos/apache-cassandra-small.png",
+    "description": "Apache Cassandra is an open source NoSQL distributed database trusted by\nthousands of companies for scalability and high availability without\ncompromising performance. Linear scalability and proven fault-tolerance on\ncommodity hardware or cloud infrastructure make it the perfect platform for\nmission-critical data.\n\nUse an Apache Cassandra database as a data source in Trino by configuring a\ncatalog with the Cassandra connector.\n",
+    "links": [
+      {
+        "urltext": "Apache Cassandra",
+        "url": "https://cassandra.apache.org/"
+      },
+      {
+        "urltext": "Cassandra connector documentation",
+        "url": "https://trino.io/docs/current/connector/cassandra.html"
+      }
+    ]
+  },
+  {
+    "name": "Apache DolphinScheduler",
+    "anchor": "apache-dolphinscheduler",
+    "category": "client",
+    "logo": "/images/logos/apache-dolphinscheduler.png",
+    "logosmall": "/images/logos/apache-dolphinscheduler-small.png",
+    "description": "Apache DolphinScheduler is an open-source, distributed workflow scheduling\nplatform designed to manage and execute batch jobs, data pipelines, and ETL\nprocesses. DolphinScheduler enables users to create and manage consecutive\njobs run easily, including support for different types of tasks, such as SQL\nstatements, shell scripts, Spark jobs, Kubernetes deployments, and many\nothers.\n",
+    "links": [
+      {
+        "urltext": "Apache DolphinScheduler",
+        "url": "https://dolphinscheduler.apache.org/"
+      },
+      {
+        "urltext": "Trino swimming with the DolphinScheduler from Trino Community Broadcast 45",
+        "url": "https://trino.io/episodes/45.html"
+      }
+    ]
+  },
+  {
+    "name": "Apache Druid",
+    "anchor": "apache-druid",
+    "category": "data-source",
+    "logo": "/images/logos/apache-druid.png",
+    "logosmall": "/images/logos/apache-druid-small.png",
+    "description": "Druid is a high performance, in-memory, real-time analytics database that\ndelivers sub-second queries on streaming and batch data at scale and under\nload.\n\nUse an Apache Druid database as a data source in Trino by configuring a\ncatalog with the Druid connector.\n",
+    "links": [
+      {
+        "urltext": "Apache Druid",
+        "url": "https://druid.apache.org/"
+      },
+      {
+        "urltext": "Druid connector documentation",
+        "url": "https://trino.io/docs/current/connector/druid.html"
+      },
+      {
+        "urltext": "Make data fluid with Apache Druid from Trino Community Broadcast 16",
+        "url": "https://trino.io/episodes/16.html"
+      }
+    ]
+  },
+  {
+    "name": "Apache Hive",
+    "anchor": "apache-hive",
+    "category": "data-source",
+    "logo": "/images/logos/apache-hive.png",
+    "logosmall": "/images/logos/apache-hive-small.png",
+    "description": "Apache Hive is a distributed, fault-tolerant data warehouse system that\nenables analytics at a massive scale and facilitates reading, writing, and\nmanaging petabytes of data residing in distributed storage using SQL.\n\nUse an Apache Hive data warehouse as a data source in Trino by configuring a\ncatalog with the Hive connector.\n",
+    "links": [
+      {
+        "urltext": "Apache Hive",
+        "url": "https://hive.apache.org/"
+      },
+      {
+        "urltext": "Hive connector documentation",
+        "url": "https://trino.io/docs/current/connector/hive.html"
+      },
+      {
+        "urltext": "What is Trino and the Hive connector from Trino Community Broadcast 29",
+        "url": "https://trino.io/episodes/29.html"
+      }
+    ]
+  },
+  {
+    "name": "Apache Hudi",
+    "anchor": "apache-hudi",
+    "category": "data-source",
+    "logo": "/images/logos/apache-hudi.png",
+    "logosmall": "/images/logos/apache-hudi-small.png",
+    "description": "Apache Hudi is a transactional data lake platform that brings database and\ndata warehouse capabilities to the data lake. Hudi reimagines slow\nold-school batch data processing with a powerful new incremental processing\nframework for low latency minute-level analytics.\n\nUse an Apache Hudi data lake as a data source in Trino by configuring a\ncatalog with the Hudi connector.\n",
+    "links": [
+      {
+        "urltext": "Apache Hudi",
+        "url": "https://hudi.apache.org/"
+      },
+      {
+        "urltext": "Hudi connector documentation",
+        "url": "https://trino.io/docs/current/connector/hudi.html"
+      },
+      {
+        "urltext": "Interview with Hudi contributors from Trino Community Broadcast 41",
+        "url": "https://trino.io/episodes/41.html"
+      }
+    ]
+  },
+  {
+    "name": "Apache Iceberg",
+    "anchor": "apache-iceberg",
+    "category": "data-source",
+    "logo": "/images/logos/apache-iceberg.png",
+    "logosmall": "/images/logos/apache-iceberg-small.png",
+    "description": "Apache Iceberg is a high-performance format for huge analytic tables.\nIceberg brings the reliability and simplicity of SQL tables to big data,\nwhile making it possible for engines like Spark, Trino, Flink, Presto, Hive\nand Impala to safely work with the same tables, at the same time.\n\nUse an Apache Iceberg data lakehouse as a data source in Trino by\nconfiguring a catalog with the Iceberg connector.\n",
+    "links": [
+      {
+        "urltext": "Apache Iceberg",
+        "url": "https://iceberg.apache.org/"
+      },
+      {
+        "urltext": "Iceberg connector documentation",
+        "url": "https://trino.io/docs/current/connector/iceberg.html"
+      },
+      {
+        "urltext": "Interview with Iceberg creator from Trino Community Broadcast 40",
+        "url": "https://trino.io/episodes/40.html"
+      }
+    ]
+  },
+  {
+    "name": "Apache Ignite",
+    "anchor": "apache-ignite",
+    "category": "data-source",
+    "logo": "/images/logos/apache-ignite.png",
+    "logosmall": "/images/logos/apache-ignite-small.png",
+    "description": "Apache Ignite is a distributed in‑memory database for high‑performance\napplications. It scales across memory, disk, and multiple machines without\ncompromise.\n\nUse an Apache Ignite database as a data source in Trino by configuring a\ncatalog with the Apache Ignite connector.\n",
+    "links": [
+      {
+        "urltext": "Apache Ignite",
+        "url": "https://ignite.apache.org/"
+      },
+      {
+        "urltext": "Ignite connector documentation",
+        "url": "https://trino.io/docs/current/connector/ignite.html"
+      },
+      {
+        "urltext": "Interview about the Ignite connector from Trino Community Broadcast 46",
+        "url": "https://trino.io/episodes/46.html"
+      }
+    ]
+  },
+  {
+    "name": "Apache Kafka",
+    "anchor": "apache-kafka",
+    "category": "data-source",
+    "logo": "/images/logos/apache-kafka.png",
+    "logosmall": "/images/logos/apache-kafka-small.png",
+    "description": "Apache Kafka is an open source distributed event streaming platform used by\nthousands of companies for high-performance data pipelines, streaming\nanalytics, data integration, and mission-critical applications.\n\nUse an Apache Kafka event stream as a data source in Trino by configuring a\ncatalog with the Kafka connector.\n",
+    "links": [
+      {
+        "urltext": "Apache Kafka",
+        "url": "https://kafka.apache.org/"
+      },
+      {
+        "urltext": "Kafka connector documentation",
+        "url": "https://trino.io/docs/current/connector/kafka.html"
+      }
+    ]
+  },
+  {
+    "name": "Apache Kudu",
+    "anchor": "apache-kudu",
+    "category": "data-source",
+    "logo": "/images/logos/apache-kudu.png",
+    "logosmall": "/images/logos/apache-kudu-small.png",
+    "description": "Apache Kudu is an open source distributed data storage engine that makes\nfast analytics on fast and changing data easy.\n\nUse an Apache Kudu data storage as a data source in Trino by configuring a\ncatalog with the Kudu connector.\n",
+    "links": [
+      {
+        "urltext": "Apache Kudu",
+        "url": "https://kudu.apache.org/"
+      },
+      {
+        "urltext": "Kudu connector documentation",
+        "url": "https://trino.io/docs/current/connector/kudu.html"
+      }
+    ]
+  },
+  {
+    "name": "Apache Phoenix",
+    "anchor": "apache-phoenix",
+    "category": "data-source",
+    "logo": "/images/logos/apache-phoenix.png",
+    "logosmall": "/images/logos/apache-phoenix-small.png",
+    "description": "Apache Phoenix enables OLTP and operational analytics in Hadoop for low\nlatency applications by combining the best of both worlds:\n\n* The power of standard SQL and JDBC APIs with full ACID transaction\n  capabilities and\n* The flexibility of late-bound, schema-on-read\n  capabilities from the NoSQL world by leveraging HBase as its backing store\n\nUse a Apache Phoenix key value store as a data source in Trino by\nconfiguring a catalog with the Phoenix connector.\n",
+    "links": [
+      {
+        "urltext": "Apache Phoenix",
+        "url": "https://phoenix.apache.org/"
+      },
+      {
+        "urltext": "Phoenix connector documentation",
+        "url": "https://trino.io/docs/current/connector/phoenix.html"
+      }
+    ]
+  },
+  {
+    "name": "Apache Pinot",
+    "anchor": "apache-pinot",
+    "category": "data-source",
+    "logo": "/images/logos/apache-pinot.png",
+    "logosmall": "/images/logos/apache-pinot-small.png",
+    "description": "Apache Pinot is a real-time distributed OLAP datastore, designed to answer\nOLAP queries with low latency\n\nUse an Apache Pinot datastore as a data source in Trino by configuring a\ncatalog with the Pinot connector.\n",
+    "links": [
+      {
+        "urltext": "Apache Pinot",
+        "url": "https://pinot.apache.org/"
+      },
+      {
+        "urltext": "Pinot connector documentation",
+        "url": "https://trino.io/docs/current/connector/pinot.html"
+      },
+      {
+        "urltext": "Trino takes a sip of Pinot! from Trino Community Broadcast 13",
+        "url": "https://trino.io/episodes/13.html"
+      }
+    ]
+  },
+  {
+    "name": "Apache Superset",
+    "anchor": "apache-superset",
+    "category": "client",
+    "logo": "/images/logos/superset.png",
+    "logosmall": "/images/logos/superset-small.png",
+    "description": "Apache Superset enables users to consume data in many different ways:\nwriting SQL queries, creating new tables, creating a visualization\n(slice), adding that visualization to one or many dashboards and\ndownloading a CSV. SQL Lab is a a part of Superset and provides a rich\nSQL editor that enables users to both query and visualize data. You\ncan explore and preview tables in Trino, effortlessly compose SQL\nqueries to access data. From there, you can either export a CSV file\nor immediately visualize your data in the Superset \"Explore\" view.\n",
+    "links": [
+      {
+        "urltext": "Apache Superset",
+        "url": "https://superset.apache.org/"
+      },
+      {
+        "urltext": "Apache Superset - Trino configuration",
+        "url": "https://superset.apache.org/docs/databases/trino"
+      },
+      {
+        "urltext": "Tutorial",
+        "url": "https://docs.starburst.io/data-consumer/clients/superset.html"
+      },
+      {
+        "urltext": "Visualizing Trino with Apache Superset at Trino Summit 2023",
+        "url": "https://www.youtube.com/watch?v=idk0GMxs8vE"
+      },
+      {
+        "urltext": "Trino gets super visual with Apache Superset! from Trino Community Broadcast 12",
+        "url": "https://trino.io/episodes/12.html"
+      }
+    ]
+  },
+  {
+    "name": "CLI",
+    "anchor": "cli",
+    "category": "client",
+    "logo": "/images/logos/cli.png",
+    "logosmall": "/images/logos/cli-small.png",
+    "description": "The Trino CLI is a feature-rich command line interface tool for interactive\nquery processing with Trino. The batch mode allows you to integrate the CLI\nwith any other processing and automation that supports command line\ninteractions.\n",
+    "links": [
+      {
+        "urltext": "Trino CLI documentation and download",
+        "url": "https://trino.io/docs/current/client/cli.html"
+      },
+      {
+        "urltext": "User guide",
+        "url": "https://docs.starburst.io/data-consumer/clients/cli.html"
+      }
+    ]
+  },
+  {
+    "name": "Clickhouse",
+    "anchor": "clickhouse",
+    "category": "data-source",
+    "logo": "/images/logos/clickhouse.png",
+    "logosmall": "/images/logos/clickhouse-small.png",
+    "description": "ClickHouse is the fastest and most resource efficient open source real-time\ndatabase for applications and analytics.\n\nUse a Clickhouse database as a data source in Trino by configuring a catalog\nwith the Clickhouse connector.\n",
+    "links": [
+      {
+        "urltext": "Clickhouse",
+        "url": "https://clickhouse.com/"
+      },
+      {
+        "urltext": "Clickhouse connector documentation",
+        "url": "https://trino.io/docs/current/connector/clickhouse.html"
+      }
+    ]
+  },
+  {
+    "name": "Coginiti",
+    "anchor": "coginiti",
+    "category": "client",
+    "logo": "/images/logos/coginiti.png",
+    "logosmall": "/images/logos/coginiti-small.png",
+    "description": "Coginiti offers a comprehensive solution for data professionals, integrating\nessential functionalities such as modular development, version control,\nfeedback mechanisms, testing capabilities, and documentation tools. By\nleveraging these features, analysts and data engineers can improve analytic\nconsistency, increase productivity, and expedite the delivery of valuable\ninsights.\n\nUnlock a new data analytics paradigm with Coginiti’s full support for Trino,\na game-changer in large-scale data querying.\n",
+    "links": [
+      {
+        "urltext": "Coginiti",
+        "url": "https://www.coginiti.co"
+      },
+      {
+        "urltext": "Coginiti as enterprise SQL workspace for Trino",
+        "url": "https://www.coginiti.co/databases/trino/"
+      },
+      {
+        "urltext": "Interview and demo with Coginiti from Trino Community Broadcast 53",
+        "url": "https://trino.io/episodes/53.html"
+      }
+    ]
+  },
+  {
+    "name": "Cube",
+    "anchor": "cube",
+    "category": "client",
+    "logo": "/images/logos/cube.png",
+    "logosmall": "/images/logos/cube-small.png",
+    "description": "Cube is headless BI for building data apps. You can use Cube to create an\nadditional semantic layer or a last-mile caching layer on top of Trino. More\nimportantly, you can use the set of APIs that Cube provides, including REST\nAPI, GraphQL API, and SQL API, to deliver the data directly to custom-built\nfront-end applications as well as BI tools and notebooks, retaining low\nlatency and high concurrency.\n",
+    "links": [
+      {
+        "urltext": "Cube",
+        "url": "https://cube.dev/"
+      },
+      {
+        "urltext": "Trino as data source with Cube",
+        "url": "https://cube.dev/integrations/Trino-Data-API"
+      },
+      {
+        "urltext": "Announcement blog post",
+        "url": "https://cube.dev/blog/cube-integration-with-trino-sql-query-engine-for-big-data"
+      }
+    ]
+  },
+  {
+    "name": "Datadog",
+    "anchor": "datadog",
+    "category": "add-on",
+    "logo": "/images/logos/datadog.png",
+    "logosmall": "/images/logos/datadog-small.png",
+    "description": "The Datadog integration allows the observability service for cloud-scale\napplications to monitor your Trino cluster. It accesses the [JMX metrics\nprovided by Trino](/docs/current/admin/jmx.html), and exposes them in\nDatadog for monitoring, inspection, and troubleshooting purposes.\n",
+    "links": [
+      {
+        "urltext": "Datadog",
+        "url": "https://www.datadoghq.com/"
+      },
+      {
+        "urltext": "Documentation for Trino integration",
+        "url": "https://docs.datadoghq.com/integrations/trino/"
+      }
+    ]
+  },
+  {
+    "name": "DBeaver",
+    "anchor": "DBeaver",
+    "category": "client",
+    "logo": "/images/logos/dbeaver.png",
+    "logosmall": "/images/logos/dbeaver-small.png",
+    "description": "DBeaver is a cross-platform database tool for developers, database\nadministrators, analysts, and everyone working with data. With DBeaver you\nare able to manipulate with your data like in a regular spreadsheet,\ncreate analytical reports based on records from different data storages,\nexport information in an appropriate format. For advanced database users\nDBeaver suggests a powerful SQL-editor, plenty of administration features,\nabilities of data and schema migration, monitoring database connection\nsessions, and a lot more.\n\nIt is avaiable as free open source DBeaver Community and as various\ncommercially supported DBeaver PRO editions. A web application version\ncalled CloudBeaver is also available. All editions support many databases,\nincluding Trino.\n",
+    "links": [
+      {
+        "urltext": "DBeaver Community",
+        "url": "https://dbeaver.io/"
+      },
+      {
+        "urltext": "DBeaver PRO",
+        "url": "https://dbeaver.com/"
+      },
+      {
+        "urltext": "CloudBeaver",
+        "url": "https://dbeaver.com/docs/cloudbeaver/"
+      },
+      {
+        "urltext": "DBeaver and Trino guide",
+        "url": "https://docs.starburst.io/data-consumer/clients/dbeaver.html"
+      }
+    ]
+  },
+  {
+    "name": "dbt",
+    "anchor": "dbt",
+    "category": "client",
+    "logo": "/images/logos/dbt.png",
+    "logosmall": "/images/logos/dbt-small.png",
+    "description": "dbt is a transformation workflow that helps you get more work done while\nproducing higher quality results. You can use dbt to modularize and\ncentralize your analytics code, while also providing your data team with\nguardrails typically found in software engineering workflows. Collaborate on\ndata models, version them, and test and document your queries before safely\ndeploying them to production, with monitoring and visibility.\n",
+    "links": [
+      {
+        "urltext": "dbt",
+        "url": "https://www.getdbt.com/"
+      },
+      {
+        "urltext": "dbt documentation",
+        "url": "https://docs.getdbt.com/"
+      },
+      {
+        "urltext": "dbt configuration for Trino",
+        "url": "https://docs.getdbt.com/reference/resource-configs/trino-configs"
+      },
+      {
+        "urltext": "dbt-trino plugin",
+        "url": "https://github.com/starburstdata/dbt-trino"
+      },
+      {
+        "urltext": "Interview with dbt developers from Trino Community Broadcast 30",
+        "url": "https://trino.io/episodes/30.html"
+      },
+      {
+        "urltext": "Introduction to dbt and Trino from Trino Community Broadcast 21",
+        "url": "https://trino.io/episodes/21.html"
+      }
+    ]
+  },
+  {
+    "name": "Delta Lake",
+    "anchor": "delta-lake",
+    "category": "data-source",
+    "logo": "/images/logos/delta-lake.png",
+    "logosmall": "/images/logos/delta-lake-small.png",
+    "description": "Delta Lake is an open source storage framework that enables building a\nLakehouse architecture with compute engines including Spark, PrestoDB,\nFlink, Trino, and Hive and APIs for Scala, Java, Rust, Ruby, and Python.\n\nUse a Delta Lake data lakehouse as a data source in Trino by configuring a\ncatalog with the Delta Lake connector.\n",
+    "links": [
+      {
+        "urltext": "Delta Lake",
+        "url": "https://delta.io/"
+      },
+      {
+        "urltext": "Delta Lake connector documentation",
+        "url": "https://trino.io/docs/current/connector/delta-lake.html"
+      },
+      {
+        "urltext": "Interview about new Delta Lake connector from Trino Community Broadcast 34",
+        "url": "https://trino.io/episodes/34.html"
+      }
+    ]
+  },
+  {
+    "name": "Elasticsearch",
+    "anchor": "elasticsearch",
+    "category": "data-source",
+    "logo": "/images/logos/elasticsearch.png",
+    "logosmall": "/images/logos/elasticsearch-small.png",
+    "description": "Elasticsearch is a distributed, RESTful search and analytics engine capable\nof addressing a growing number of use cases. As the heart of the Elastic\nStack, it centrally stores your data for lightning fast search, fine‑tuned\nrelevancy, and powerful analytics that scale with ease.\n\nUse an Elasticsearch index as a data source in Trino by configuring a\ncatalog with the Elasticsearch connector.\n",
+    "links": [
+      {
+        "urltext": "Elasticsearch",
+        "url": "https://www.elastic.co/elasticsearch/"
+      },
+      {
+        "urltext": "Elasticsearch connector documentation",
+        "url": "https://trino.io/docs/current/connector/elasticsearch.html"
+      }
+    ]
+  },
+  {
+    "name": "Emacs",
+    "anchor": "emacs",
+    "category": "client",
+    "logo": "/images/logos/emacs.png",
+    "logosmall": "/images/logos/emacs-small.png",
+    "description": "GNU Emacs, a versatile and extensible text editor, offers support for\nnumerous programming languages and tools, including SQL. If you're\ninterested in using Emacs to work with SQL databases, the built-in sql-mode\nand sql-interactive-mode are your friends. To use it with Trino include the\nsql-trino.el mode.\n",
+    "links": [
+      {
+        "urltext": "GNU Emacs",
+        "url": "https://www.gnu.org/software/emacs/"
+      },
+      {
+        "urltext": "sql-trino.el",
+        "url": "https://github.com/regadas/sql-trino"
+      }
+    ]
+  },
+  {
+    "name": "FugueSQL",
+    "anchor": "fugue-sql",
+    "category": "client",
+    "logo": "/images/logos/fuguesql.png",
+    "logosmall": "/images/logos/fuguesql-small.png",
+    "description": "Fugue provides an easier interface to using distributed compute effectively\nand accelerates big data projects. It does this by minimizing the amount of\ncode you need to write, in addition to taking care of tricks and\noptimizations that lead to more efficient execution on distrubted compute.\nFugue ports Python, Pandas, and SQL code to Spark, Dask, and Ray, and\nsupports Trino.\n",
+    "links": [
+      {
+        "urltext": "FugueSQL",
+        "url": "https://fugue-tutorials.readthedocs.io/index.html"
+      },
+      {
+        "urltext": "Fugue with Trino documentation",
+        "url": "https://fugue-tutorials.readthedocs.io/tutorials/integrations/warehouses/trino.html"
+      },
+      {
+        "urltext": "Interoperable Python and Trino for interactive workloads from TrinoFest 2023",
+        "url": "https://trino.io/blog/2023/07/27/trino-fest-2023-fugue-recap"
+      }
+    ]
+  },
+  {
+    "name": "Git",
+    "anchor": "git",
+    "category": "data-source",
+    "logo": "/images/logos/git.png",
+    "logosmall": "/images/logos/git-small.png",
+    "description": "Git is a free and open source distributed version control system designed to\nhandle everything from small to very large projects with speed and\nefficiency.\n\nUse a git repository as a data source in Trino by configuring a catalog with\nthe git connector.\n",
+    "links": [
+      {
+        "urltext": "Git",
+        "url": "https://git-scm.com/"
+      },
+      {
+        "urltext": "Trino git connector",
+        "url": "https://github.com/nineinchnick/trino-git"
+      }
+    ]
+  },
+  {
+    "name": "Go",
+    "anchor": "go",
+    "category": "client",
+    "logo": "/images/logos/go.png",
+    "logosmall": "/images/logos/go-small.png",
+    "description": "Go is a statically typed, compiled high-level programming language. Use the\nTrino Go client to connect a Go applications to a Trino cluster and receive\nthe results of the submitted SQL queries.\n",
+    "links": [
+      {
+        "urltext": "Go",
+        "url": "https://go.dev/"
+      },
+      {
+        "urltext": "Trino Go client source code and documentation",
+        "url": "https://github.com/trinodb/trino-go-client"
+      }
+    ]
+  },
+  {
+    "name": "Google BigQuery",
+    "anchor": "google-bigquery",
+    "category": "data-source",
+    "logo": "/images/logos/google-bigquery.png",
+    "logosmall": "/images/logos/google-bigquerye-small.png",
+    "description": "BigQuery is a serverless and cost-effective enterprise data warehouse that\nworks across clouds and scales with your data. Use built-in ML/AI and BI for\ninsights at scale.\n\nUse a Google BigQuery data warehouse as a data source in Trino by\nconfiguring a catalog with the BigQuery connector.\n",
+    "links": [
+      {
+        "urltext": "Google BigQuery",
+        "url": "https://cloud.google.com/bigquery/"
+      },
+      {
+        "urltext": "BigQuery connector documentation",
+        "url": "https://trino.io/docs/current/connector/bigquery.html"
+      }
+    ]
+  },
+  {
+    "name": "Google Sheets",
+    "anchor": "google-sheets",
+    "category": "data-source",
+    "logo": "/images/logos/google-sheets.png",
+    "logosmall": "/images/logos/google-sheets-small.png",
+    "description": "Google Sheets enables you to ceate and collaborate on online spreadsheets\nin real-time and from any device.\n\nUse a Google Sheets spreadsheet as a data source in Trino by configuring a\ncatalog with the Google Sheets connector.\n",
+    "links": [
+      {
+        "urltext": "Google Sheets",
+        "url": "https://www.google.com/sheets/about/"
+      },
+      {
+        "urltext": "Google Sheets connector documentation",
+        "url": "https://trino.io/docs/current/connector/googlesheets.html"
+      }
+    ]
+  },
+  {
+    "name": "Grafana",
+    "anchor": "grafana",
+    "category": "client",
+    "logo": "/images/logos/grafana.png",
+    "logosmall": "/images/logos/grafana-small.png",
+    "description": "Grafana is a multi-platform open source analytics and interactive\nvisualization web application. It provides charts, graphs, and alerts for\nthe web when connected to supported data sources.\n\nThe Trino Grafana Data Source Plugin allows you to connect your Grafana\ndashboards to Trino and use the configured catalogs as data source.\n",
+    "links": [
+      {
+        "urltext": "Grafana",
+        "url": "https://grafana.com/"
+      },
+      {
+        "urltext": "Trino Grafana Data Source Plugin",
+        "url": "https://github.com/trinodb/grafana-trino"
+      }
+    ]
+  },
+  {
+    "name": "Gravitino",
+    "anchor": "gravitino",
+    "category": "data-source",
+    "logo": "/images/logos/gravitino.png",
+    "logosmall": "/images/logos/gravitino-small.png",
+    "description": "Gravitino is a high-performance, geo-distributed, and federated metadata\nlake. It manages the metadata directly in different sources, types, and\nregions. It also provides users with unified metadata access for data and AI\nassets, and is available as an open source project.\n\nUse Gravitino as a data source in Trino by configuring a catalog with the\nGravitino connector.\n",
+    "links": [
+      {
+        "urltext": "Gravitino",
+        "url": "https://datastrato.ai/gravitino/"
+      },
+      {
+        "urltext": "Gravitino Trino connector documentation",
+        "url": "https://datastrato.ai/docs/0.4.0/trino-connector/index"
+      }
+    ]
+  },
+  {
+    "name": "Great Expectations",
+    "anchor": "great-expectations",
+    "category": "client",
+    "logo": "/images/logos/great-expectations.png",
+    "logosmall": "/images/logos/great-expectations-small.png",
+    "description": "Great Expectations is the leading tool for validating, documenting, and\nprofiling your data to maintain quality and improve communication between\nteams.\n",
+    "links": [
+      {
+        "urltext": "Great Expectations",
+        "url": "https://greatexpectations.io"
+      },
+      {
+        "urltext": "Great Expectations documentation",
+        "url": "https://docs.greatexpectations.io/"
+      },
+      {
+        "urltext": "Trino guide",
+        "url": "https://docs.greatexpectations.io/docs/guides/connecting_to_your_data/database/trino/"
+      },
+      {
+        "urltext": "Make your Trino data pipelines production ready with Great Expectations",
+        "url": "https://trino.io/blog/2022/08/24/data-pipelines-production-ready-great-expectations.html"
+      }
+    ]
+  },
+  {
+    "name": "Harlequin",
+    "anchor": "Harlequin",
+    "category": "client",
+    "logo": "/images/logos/harlequin.png",
+    "logosmall": "/images/logos/harlequin-small.png",
+    "description": "Harlequin is a portable, powerful, colorful, easy, fast, and beautiful\ndatabase client for the terminal. It runs on any shell, any terminal, and\nany machine.\n\nHarlequin is free to download and you install it with `pipx` or `pip` and\nthe command `install harlequin_trino`.\n",
+    "links": [
+      {
+        "urltext": "Harlequin",
+        "url": "https://harlequin.sh/"
+      },
+      {
+        "urltext": "Harlequin Trino adapter",
+        "url": "https://harlequin.sh/docs/trino/index"
+      }
+    ]
+  },
+  {
+    "name": "Hue",
+    "anchor": "hue",
+    "category": "client",
+    "logo": "/images/logos/hue.png",
+    "logosmall": "/images/logos/hue-small.png",
+    "description": "Hue is a mature open source SQL assistant for querying databases and data\nwarehouses. It is used by Fortune 500 companies, and focused on smart query\ntyping.\n",
+    "links": [
+      {
+        "urltext": "Hue",
+        "url": "http://gethue.com/"
+      },
+      {
+        "urltext": "Instructions to use the Trino connector",
+        "url": "https://docs.gethue.com/administrator/configuration/connectors/#trino"
+      }
+    ]
+  },
+  {
+    "name": "Ibis",
+    "anchor": "ibis",
+    "category": "client",
+    "logo": "/images/logos/ibis.png",
+    "logosmall": "/images/logos/ibis-small.png",
+    "description": "Ibis is a dataframe interface to execution engines with support for 15+\nbackends, including Trino. Ibis doesn’t replace your existing execution\nengine, it extends it with powerful abstractions and intuitive syntax. For\nthose who love doing all their data-related work in Python, this allows you\nto write Python code that leverages the speed and power of Trino without\nneeding to become a SQL master.\n",
+    "links": [
+      {
+        "urltext": "Ibis Project",
+        "url": "https://ibis-project.org/"
+      },
+      {
+        "urltext": "Trino as Ibis backend",
+        "url": "https://ibis-project.org/backends/trino/"
+      },
+      {
+        "urltext": "Because SQL is everywhere and so is Python from TrinoFest 2023",
+        "url": "https://trino.io/blog/2023/07/03/trino-fest-2023-ibis.html"
+      },
+      {
+        "urltext": "Trino, Ibis, and wrangling Python in the SQL ecosystem from Trino Community Broadcast 49",
+        "url": "https://trino.io/episodes/49.html"
+      }
+    ]
+  },
+  {
+    "name": "IBM Cognos Analytics",
+    "anchor": "ibm-cognos-analytics",
+    "category": "client",
+    "logo": "/images/logos/ibm-cognos-analytics.png",
+    "logosmall": "/images/logos/ibm-cognos-analytics-small.png",
+    "description": "Cognos Analytics is a comprehensive business intelligence and performance\nmanagement suite providing robust reporting, dashboards, data modeling and\nreal-time monitoring, score carding, and predictive analytics. Cognos\nAnalytics aims to empower users to collaborate, plan, and make smart\ndecisions for better business results.\n",
+    "links": [
+      {
+        "urltext": "IBM Cognos Analytics",
+        "url": "https://www.ibm.com/products/cognos-analytics"
+      },
+      {
+        "urltext": "List of supported software, including Trino versions",
+        "url": "https://www.ibm.com/support/pages/node/6966712"
+      }
+    ]
+  },
+  {
+    "name": "JavaScript",
+    "anchor": "javascript",
+    "category": "client",
+    "logo": "/images/logos/javascript.png",
+    "logosmall": "/images/logos/javascript-small.png",
+    "description": "Applications using JavaScript, TypeScript, Node.js, and related\nframeworks can use the trino-js-client, presto-client-node, or lento projects\nto connect to a Trino cluster and receive the results of the submitted\nqueries.\n",
+    "links": [
+      {
+        "urltext": "trino-js-client",
+        "url": "https://github.com/regadas/trino-js-client"
+      },
+      {
+        "urltext": "presto-client-node",
+        "url": "https://github.com/tagomoris/presto-client-node"
+      },
+      {
+        "urltext": "lento",
+        "url": "https://github.com/vweevers/lento"
+      }
+    ]
+  },
+  {
+    "name": "JDBC",
+    "anchor": "jdbc",
+    "category": "client",
+    "logo": "/images/logos/jdbc.png",
+    "logosmall": "/images/logos/jdbc-small.png",
+    "description": "Java Database Connectivity (JDBC) enables applications running on the JVM to\nconnect and query databases. Use the Trino JDBC driver with your application\nfor the JVM, written in Java, Kotlin, or any other JVM language, or provided\nby your tool vendor.\n",
+    "links": [
+      {
+        "urltext": "Trino JDBC Driver documentation",
+        "url": "https://trino.io/docs/current/client/jdbc.html"
+      }
+    ]
+  },
+  {
+    "name": "JetBrains Datagrip",
+    "anchor": "jetbrains-datagriop",
+    "category": "client",
+    "logo": "/images/logos/datagrip.png",
+    "logosmall": "/images/logos/datagrip-small.png",
+    "description": "DataGrip by JetBrains is an IDE for databases that is tailored to suit the\nspecific needs of professional SQL developers. It is designed to work with\ndatabases installed locally, on a server, or in the cloud. It is installed\nas a local application on your workstation.\n",
+    "links": [
+      {
+        "urltext": "JetBrains Datagrip",
+        "url": "https://www.jetbrains.com/datagrip/"
+      },
+      {
+        "urltext": "Datagrip with Trino tutorial",
+        "url": "https://docs.starburst.io/data-consumer/clients/datagrip.html"
+      }
+    ]
+  },
+  {
+    "name": "JMX",
+    "anchor": "jmx",
+    "category": "add-on",
+    "logo": "/images/logos/jmx.png",
+    "logosmall": "/images/logos/jmx-small.png",
+    "description": "Java Management Extensions (JMX) is a Java technology that supplies tools\nfor managing and monitoring applications, system objects, devices (such as\nprinters) and service-oriented networks. It defines a management\narchitecture, design patterns, APIs, and services for building web-based,\ndistributed, dynamic, and modular solutions to manage Java-enabled\nresources.\n\nTrino exposes numerous metrics for JMX. The metrics can be\ninspected and monitored with external JMX application, and in Trino itself\nwith SQL statements and the included JMX connector.\n",
+    "links": [
+      {
+        "urltext": "JMX",
+        "url": "https://www.oracle.com/technical-resources/articles/javase/jmx.html"
+      },
+      {
+        "urltext": "Monitoring with JMX",
+        "url": "https://trino.io/docs/current/admin/jmx.html"
+      },
+      {
+        "urltext": "JMX connector",
+        "url": "https://trino.io/docs/current/connector/jmx.html"
+      }
+    ]
+  },
+  {
+    "name": "jOOQ",
+    "anchor": "jooq",
+    "category": "add-on",
+    "logo": "/images/logos/jooq.png",
+    "logosmall": "/images/logos/jooq-small.png",
+    "description": "jOOQ stands for jOOQ Object Oriented Querying (jOOQ). It generates Java code\nfrom your database, and lets you build type safe SQL queries through its\nfluent API.\n\nAll editions of jOOQ since the 3.19 release include support for Trino. The\nlevel of support depends on the used catalog and connector, and further\nTrino-specific enhancements are in progress.\n",
+    "links": [
+      {
+        "urltext": "Java Object Oriented Querying (JOOQ)",
+        "url": "https://www.jooq.org/"
+      },
+      {
+        "urltext": "jOOQ 3.19 release notes",
+        "url": "https://www.jooq.org/notes"
+      }
+    ]
+  },
+  {
+    "name": "Jupy SQL",
+    "anchor": "jupy-sql",
+    "category": "client",
+    "logo": "/images/logos/jupy-sql.png",
+    "logosmall": "/images/logos/jupy-sql-small.png",
+    "description": "JupySQL allows you to run SQL and plot large datasets in Jupyter a `%sql`,\n%%sql, and %sqlplot magics. JupySQL is compatible with all major databases,\ndata warehouses, embedded engines, and of course also Trino.\n",
+    "links": [
+      {
+        "urltext": "Jupy SQL",
+        "url": "https://jupysql.ploomber.io/"
+      },
+      {
+        "urltext": "Trino tutorial",
+        "url": "https://jupysql.ploomber.io/en/latest/integrations/trinodb.html"
+      }
+    ]
+  },
+  {
+    "name": "Kubernetes",
+    "anchor": "kubernetes",
+    "category": "add-on",
+    "logo": "/images/logos/kubernetes.png",
+    "logosmall": "/images/logos/kubernetes-small.png",
+    "description": "Trino is commonly deployed on the Kubernetes platform. Use the Docker\ncontainer directly or with the Helm chart for your deployment. In addition,\nnumerous vendors provide custom tooling to manage Trino with their specific\nproducts and integrations using Kubernetes.\n",
+    "links": [
+      {
+        "urltext": "Kubernetes",
+        "url": "https://kubernetes.io/"
+      },
+      {
+        "urltext": "Trino Docker container documentation",
+        "url": "https://trino.io/docs/current/installation/containers.html"
+      },
+      {
+        "urltext": "Trino Helm chart documentation",
+        "url": "https://trino.io/docs/current/installation/kubernetes.html"
+      },
+      {
+        "urltext": "Trino Helm chart source with more details",
+        "url": "https://github.com/trinodb/charts"
+      }
+    ]
+  },
+  {
+    "name": "Looker",
+    "anchor": "looker",
+    "category": "client",
+    "logo": "/images/logos/looker.png",
+    "logosmall": "/images/logos/looker-small.png",
+    "description": "Looker offers a unified business intelligence platform on Google Cloud. It\nis self-service and governance enabled, and can be embedded in your\nsolution.\n",
+    "links": [
+      {
+        "urltext": "Looker",
+        "url": "https://cloud.google.com/looker"
+      },
+      {
+        "urltext": "Looker and Trino user guide",
+        "url": "https://cloud.google.com/looker/docs/db-config-prestodb-and-trino"
+      }
+    ]
+  },
+  {
+    "name": "MariaDB",
+    "anchor": "mariadb",
+    "category": "data-source",
+    "logo": "/images/logos/mariadb.png",
+    "logosmall": "/images/logos/mariadb-small.png",
+    "description": "MariaDB Server is one of the most popular open source relational databases.\nIt’s made by the original developers of MySQL and guaranteed to stay open\nsource. It is part of most cloud offerings and the default in most Linux\ndistributions.\n\nUse a MariaDB database as a data source in Trino by configuring a catalog\nwith the MariaDB connector.\n",
+    "links": [
+      {
+        "urltext": "MariaDB",
+        "url": "https://mariadb.org/"
+      },
+      {
+        "urltext": "MariaDB connector documentation",
+        "url": "https://trino.io/docs/current/connector/mariadb.html"
+      }
+    ]
+  },
+  {
+    "name": "Metabase",
+    "anchor": "metabase",
+    "category": "client",
+    "logo": "/images/logos/metabase.png",
+    "logosmall": "/images/logos/metabase-small.png",
+    "description": "Metabase is an open source web based business intelligence platform. You can\nuse Metabase to ask questions about your data, or embed Metabase in your app\nto let your customers explore their data on their own. More information is\navailable in the driver project repository and the user guide.\n",
+    "links": [
+      {
+        "urltext": "Metabase",
+        "url": "https://www.metabase.com/"
+      },
+      {
+        "urltext": "Metabase driver user guide",
+        "url": "https://docs.starburst.io/data-consumer/clients/metabase.html"
+      },
+      {
+        "urltext": "Metabase driver",
+        "url": "https://github.com/starburstdata/metabase-driver"
+      },
+      {
+        "urltext": "Interview about Metabase from Trino Community Broadcast 44",
+        "url": "https://trino.io/episodes/44.html"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft SQL Server",
+    "anchor": "sql-server",
+    "category": "data-source",
+    "logo": "/images/logos/microsoft-sql-server.png",
+    "logosmall": "/images/logos/microsoft-sql-server-small.png",
+    "description": "Microsoft SQL Server is a proprietary relational database management system\ndeveloped by Microsoft. Microsoft provides different editions of Microsoft\nSQL Server, aimed at different audiences and for workloads ranging from\nsmall single-machine applications to large Internet-facing applications with\nmany concurrent users.\n\nUse a Microsoft SQL Server database as a data source in Trino by configuring\na catalog with the SQL Server connector.\n",
+    "links": [
+      {
+        "urltext": "Microsoft SQL Server",
+        "url": "https://www.microsoft.com/sql-server"
+      },
+      {
+        "urltext": "SQL Server connector documentation",
+        "url": "https://trino.io/docs/current/connector/sqlserver.html"
+      }
+    ]
+  },
+  {
+    "name": "Microstrategy",
+    "anchor": "microstrategy",
+    "category": "client",
+    "logo": "/images/logos/microstrategy.png",
+    "logosmall": "/images/logos/microstrategy-small.png",
+    "description": "MicroStrategy is a business intelligence tool that enables you to build up\nplatforms that provide real-time data monitoring and can be accessed and\ncontrolled over any mobile device upon creation. It provides modern\nanalytics on an open, comprehensive enterprise platform, and allows users to\noverlay actionable enterprise data on popular business applications to help\nusers make smarter, faster decisions.\n",
+    "links": [
+      {
+        "urltext": "Microstrategy",
+        "url": "https://www.microstrategy.com/en"
+      },
+      {
+        "urltext": "Microstrategy with Trino tutorial",
+        "url": "https://docs.starburst.io/data-consumer/clients/microstrategy.html"
+      }
+    ]
+  },
+  {
+    "name": "Minitrino",
+    "anchor": "minitrino",
+    "category": "add-on",
+    "logo": "/images/logos/minitrino.png",
+    "logosmall": "/images/logos/minitrino-small.png",
+    "description": "Minitrino is a command line tool that makes it easy to run modular Trino\nenvironments locally. It uses a collection of Docker images to deploy\nvarious containers alongside Trino, including data sources, security\nintegrations, and administration tools.\n",
+    "links": [
+      {
+        "urltext": "Minitrino",
+        "url": "https://github.com/jefflester/minitrino"
+      }
+    ]
+  },
+  {
+    "name": "Mitzu",
+    "anchor": "mitzu",
+    "category": "client",
+    "logo": "/images/logos/mitzu.png",
+    "logosmall": "/images/logos/mitzu-small.png",
+    "description": "Mitzu is a warehouse-native product analytics platform that revolutionizes\nhow companies leverage their product usage data in the data lake.\n\nBy directly connecting to Trino, Mitzu eliminates the need for traditional\nreverse ETL processes to 3rd party applications such as Amplitude or\nMixpanel. Mitzu enables real-time self-served product analytics on top of\nthe existing data infrastructure with generated SQL queries.\n",
+    "links": [
+      {
+        "urltext": "Mitzu",
+        "url": "https://www.mitzu.io/"
+      },
+      {
+        "urltext": "Setup for Trino integration to Mitzu",
+        "url": "https://docs.mitzu.io/warehouse-integrations/trino-presto"
+      },
+      {
+        "urltext": "Using Mitzu With Trino blog post",
+        "url": "https://www.mitzu.io/post/using-mitzu-with-trino-presto"
+      },
+      {
+        "urltext": "Trino Community Broadcast 58, Understanding your users with Trino and Mitzu",
+        "url": "/episodes/58.html"
+      }
+    ]
+  },
+  {
+    "name": "Mode",
+    "anchor": "mode",
+    "category": "client",
+    "logo": "/images/logos/mode.png",
+    "logosmall": "/images/logos/mode-small.png",
+    "description": "Mode is the modern business intelligence platform that unites data teams\nwith business teams to build analytics that drive business outcomes.\n",
+    "links": [
+      {
+        "urltext": "Mode",
+        "url": "https://www.mode.com/"
+      },
+      {
+        "urltext": "Mode and Trino integration guide",
+        "url": "https://mode.com/integrations/trino/"
+      }
+    ]
+  },
+  {
+    "name": "MongoDB",
+    "anchor": "mongodb",
+    "category": "data-source",
+    "logo": "/images/logos/mongodb.png",
+    "logosmall": "/images/logos/mongodb-small.png",
+    "description": "MongoDB is a source-available cross-platform document-oriented database\nprogram. Classified as a NoSQL database program, MongoDB uses JSON-like\ndocuments with optional schemas.\n\nUse a MongoDB database as a data source in Trino by configuring a catalog\nwith the MongoDB connector.\n",
+    "links": [
+      {
+        "urltext": "MongoDB",
+        "url": "https://www.mongodb.com/"
+      },
+      {
+        "urltext": "MongoDB connector documentation",
+        "url": "https://trino.io/docs/current/connector/mongodb.html"
+      }
+    ]
+  },
+  {
+    "name": "MySQL",
+    "anchor": "mysql",
+    "category": "data-source",
+    "logo": "/images/logos/mysql.png",
+    "logosmall": "/images/logos/mysql-small.png",
+    "description": "MySQL is the world's most popular open source relational database management\nsystem (RDBMS).\n\nUse a MySQL database as a data source in Trino by configuring a catalog with\nthe MySQL connector.\n",
+    "links": [
+      {
+        "urltext": "MySQL",
+        "url": "https://www.mysql.com/"
+      },
+      {
+        "urltext": "MySQL connector documentation",
+        "url": "https://trino.io/docs/current/connector/mysql.html"
+      }
+    ]
+  },
+  {
+    "name": "ODBC",
+    "anchor": "Odbc",
+    "category": "client",
+    "logo": "/images/logos/odbc.png",
+    "logosmall": "/images/logos/odbc-small.png",
+    "description": "Open Database Connectivity (ODBC) enables applications to connect and query\ndatabases. Use an ODBC driver with your own custom application, or with any\nother application that supports ODBC. ODBC drivers for Trino are available\nfrom Magnitude. Starburst customers receive an ODBC driver suitable for\nStarburst Enterprise and Starburst Galaxy.\n",
+    "links": [
+      {
+        "urltext": "Magnitiude ODBC driver",
+        "url": "https://www.magnitude.com/drivers/trino-odbc-jdbc"
+      },
+      {
+        "urltext": "Starburst ODBC driver",
+        "url": "https://docs.starburst.io/data-consumer/clients/odbc.html"
+      }
+    ]
+  },
+  {
+    "name": "OpenAPI",
+    "anchor": "openapi",
+    "category": "data-source",
+    "logo": "/images/logos/openapi.png",
+    "logosmall": "/images/logos/openapi-small.png",
+    "description": "OpenAPI is a specification language for REST APIs that provides a\nstandardized means to define your API.\n\nUse any REST API that publishes an OpenAPI specification as a data source in\nTrino by configuring a catalog with the OpenAPI connector, and avoid having\nto generate a client.\n",
+    "links": [
+      {
+        "urltext": "OpenAPI",
+        "url": "https://www.openapis.org/"
+      },
+      {
+        "urltext": "Trino OpenAPI connector",
+        "url": "https://github.com/nineinchnick/trino-openapi"
+      }
+    ]
+  },
+  {
+    "name": "Open Policy Agent",
+    "anchor": "opa",
+    "category": "add-on",
+    "logo": "/images/logos/opa.png",
+    "logosmall": "/images/logos/opa-small.png",
+    "description": "Open Policy Agent (OPA) is a system for policy-based control for cloud\nnative environments. It enables flexible, fine-grained control for\nadministrators across many systems and applications.\n\nThe Trino plugin enables the use of Open Policy Agent (OPA) as authorization\nengine for access control to catalogs, schemas, tables, and other objects in\nTrino. Policies are defined in OPA, and Trino checks access control\nprivileges in OPA.\n",
+    "links": [
+      {
+        "urltext": "Open Policy Agent",
+        "url": "https://www.openpolicyagent.org/"
+      },
+      {
+        "urltext": "Open Policy Agent access control documentation",
+        "url": "https://trino.io/docs/current/security/opa-access-control.html"
+      },
+      {
+        "urltext": "Blog post about Open Policy Agent for Trino with videos from Trino Summit 2023",
+        "url": "http://trino.io/blog/2024/02/06/opa-arrived.html"
+      }
+    ]
+  },
+  {
+    "name": "OpenSearch",
+    "anchor": "opensearch",
+    "category": "data-source",
+    "logo": "/images/logos/opensearch.png",
+    "logosmall": "/images/logos/opensearch-small.png",
+    "description": "OpenSearch is a scalable, flexible, and extensible open-source software\nsuite for search, analytics, and observability applications. OpenSearch\noffers a vendor-agnostic toolset you can use to build secure,\nhigh-performance, cost-efficient applications. OpenSearch includes a data\nstore and search engine, a visualization and user interface, and a library\nof plugins you can use to tailor your tools to your requirements.\n\nUse an OpenSearch index as a data source in Trino by configuring a\ncatalog with the Elasticsearch connector.\n",
+    "links": [
+      {
+        "urltext": "OpenSearch",
+        "url": "https://opensearch.org/"
+      },
+      {
+        "urltext": "Elasticsearch connector documentation",
+        "url": "https://trino.io/docs/current/connector/elasticsearch.html"
+      }
+    ]
+  },
+  {
+    "name": "OpenTelemetry",
+    "anchor": "opentelemetry",
+    "category": "add-on",
+    "logo": "/images/logos/opentelemetry.png",
+    "logosmall": "/images/logos/opentelemetry-small.png",
+    "description": "OpenTelemetry is a widely-used collection of APIs, SDKs, and tools that\ninstrument, generate, collect, and export telemetry data such as metrics,\nlogs, and traces to help you analyze application performance and behavior.\n\nTrino exposes tracing information for observability of a running Trino\ndeployment.\n",
+    "links": [
+      {
+        "urltext": "OpenTelemetry",
+        "url": "https://opentelemetry.io/"
+      },
+      {
+        "urltext": "Trino observability with OpenTelemetry",
+        "url": "https://trino.io/docs/current/admin/opentelemetry.html"
+      },
+      {
+        "urltext": "Trino Community Broadcast 57, Seeing clearly with OpenTelemetry",
+        "url": "/episodes/57.html"
+      }
+    ]
+  },
+  {
+    "name": "Oracle",
+    "anchor": "oracle",
+    "category": "data-source",
+    "logo": "/images/logos/oracle.png",
+    "logosmall": "/images/logos/oracle-small.png",
+    "description": "Oracle database services and products offer customers cost-optimized and\nhigh-performance versions of Oracle Database, the world's leading converged,\nmulti-model database management system.\n\nUse an Oracle database as a data source in Trino by configuring a catalog\nwith the Oracle connector.\n",
+    "links": [
+      {
+        "urltext": "Oracle",
+        "url": "https://www.oracle.com/database/"
+      },
+      {
+        "urltext": "Oracle connector documentation",
+        "url": "https://trino.io/docs/current/connector/oracle.html"
+      }
+    ]
+  },
+  {
+    "name": "PopSQL",
+    "anchor": "popsql",
+    "category": "client",
+    "logo": "/images/logos/popsql.png",
+    "logosmall": "/images/logos/popsql-small.png",
+    "description": "PopSQL is a collaborative SQL editor for your team to write queries,\nvisualize data, and share your results.\n",
+    "links": [
+      {
+        "urltext": "PopSQL",
+        "url": "https://popsql.com/"
+      },
+      {
+        "urltext": "Connecting to Trino",
+        "url": "https://docs.popsql.com/docs/connecting-to-trino"
+      }
+    ]
+  },
+  {
+    "name": "PostgreSQL",
+    "anchor": "postgresql",
+    "category": "data-source",
+    "logo": "/images/logos/postgresql.png",
+    "logosmall": "/images/logos/postgresql-small.png",
+    "description": "PostgreSQL is the world's most advanced open source relational database.\nPostgreSQL is a powerful system with over 35 years of active development\nthat has earned it a strong reputation for reliability, feature robustness,\nand performance.\n\nUse a PostgreSQL database as a data source in Trino by configuring a catalog\nwith the PostgreSQL connector.\n",
+    "links": [
+      {
+        "urltext": "PostgreSQL",
+        "url": "https://postgresql.org/"
+      },
+      {
+        "urltext": "PostgreSQL connector documentation",
+        "url": "https://trino.io/docs/current/connector/postgresql.html"
+      }
+    ]
+  },
+  {
+    "name": "Prometheus",
+    "anchor": "prometheus",
+    "category": "data-source",
+    "logo": "/images/logos/prometheus.png",
+    "logosmall": "/images/logos/prometheus-small.png",
+    "description": "Prometheus is an open source systems monitoring and alerting toolkit with a\nvery active developer and user community. Prometheus collects and stores its\nmetrics as time series data, i.e. metrics information is stored with the\ntimestamp at which it was recorded, alongside optional key-value pairs\ncalled labels.\n\nUse a Prometheus database as a data source in Trino by configuring a catalog\nwith the Prometheus connector.\n\nTrino also supports observability with OpenTelemetry, and therefore\nPrometheus.\n",
+    "links": [
+      {
+        "urltext": "Prometheus",
+        "url": "https://prometheus.io/docs/introduction/overview/"
+      },
+      {
+        "urltext": "Prometheus connector documentation",
+        "url": "https://trino.io/docs/current/connector/prometheus.html"
+      },
+      {
+        "urltext": "OpenTelemetry integration documentation",
+        "url": "https://trino.io/docs/current/admin/opentelemetry.html"
+      }
+    ]
+  },
+  {
+    "name": "Python",
+    "anchor": "python",
+    "category": "client",
+    "logo": "/images/logos/python.png",
+    "logosmall": "/images/logos/python-small.png",
+    "description": "Python is a programming language that lets you work quickly and integrate\nsystems more effectively. Use the Trino Python Client to connect a Python\nscript or application to a Trino cluster and receive the results of the\nsubmitted queries.\n",
+    "links": [
+      {
+        "urltext": "Python",
+        "url": "https://www.python.org/"
+      },
+      {
+        "urltext": "trino-python-client",
+        "url": "https://github.com/trinodb/trino-python-client"
+      }
+    ]
+  },
+  {
+    "name": "Querybook",
+    "anchor": "querybook",
+    "category": "client",
+    "logo": "/images/logos/querybook.png",
+    "logosmall": "/images/logos/querybook-small.png",
+    "description": "Querybook is a browser-based data analysis tool that turns SQL queries into\nnatural language reports and graphs called DataDocs. Querybook’s core focus\nis to make composing queries, creating analyses, and collaborating with\nothers as simple as possible.\n",
+    "links": [
+      {
+        "urltext": "Querybook",
+        "url": "https://www.querybook.org/"
+      },
+      {
+        "urltext": "Querybook with Trino tutorial",
+        "url": "https://docs.starburst.io/data-consumer/clients/querybook.html"
+      }
+    ]
+  },
+  {
+    "name": "Quix",
+    "anchor": "quix",
+    "category": "client",
+    "logo": "/images/logos/quix.png",
+    "logosmall": "/images/logos/quix-small.png",
+    "description": "Quix is a multi-user, easy-to-use notebook manager.By utilizing Trino it\nprovides unified access to multiple data sources and effectively acts as a\nshared space for your company's BI insights and know-how.\n",
+    "links": [
+      {
+        "urltext": "Quix",
+        "url": "https://wix-incubator.github.io/quix/"
+      },
+      {
+        "urltext": "Documentation for Trino users",
+        "url": "https://wix-incubator.github.io/quix/docs/presto"
+      }
+    ]
+  },
+  {
+    "name": "R",
+    "anchor": "r",
+    "category": "client",
+    "logo": "/images/logos/r.png",
+    "logosmall": "/images/logos/r-small.png",
+    "description": "R is a free software environment for statistical computing and graphics.\nRPresto is a DBI-based adapter for the open source distributed SQL query\nengines Presto and Trino for running interactive analytic queries.\n",
+    "links": [
+      {
+        "urltext": "R",
+        "url": "https://www.r-project.org/"
+      },
+      {
+        "urltext": "RPresto",
+        "url": "https://github.com/prestodb/RPresto"
+      }
+    ]
+  },
+  {
+    "name": "Redash",
+    "anchor": "redash",
+    "category": "client",
+    "logo": "/images/logos/redash.png",
+    "logosmall": "/images/logos/redash-small.png",
+    "description": "Redash is a take on freeing the data within our company in a way that will\nbetter fit our culture and usage patterns. It has Trino support as well as\nother backends, and offers a query editor with syntax highlighting and\ncompletion, and creating visualizations and dashboards from query results.\n",
+    "links": [
+      {
+        "urltext": "Redash",
+        "url": "https://redash.io/"
+      }
+    ]
+  },
+  {
+    "name": "Redis",
+    "anchor": "redis",
+    "category": "data-source",
+    "logo": "/images/logos/redis.png",
+    "logosmall": "/images/logos/redis-small.png",
+    "description": "Redis is an open source, in-memory data store used by millions of developers\nas a database, cache, streaming engine, and message broker.\n\nUse a Redis data store as a data source in Trino by configuring a catalog\nwith the Redis connector.\n",
+    "links": [
+      {
+        "urltext": "Redis",
+        "url": "https://redis.io/"
+      },
+      {
+        "urltext": "MySQL connector documentation",
+        "url": "https://trino.io/docs/current/connector/redis.html"
+      }
+    ]
+  },
+  {
+    "name": "Ruby",
+    "anchor": "ruby",
+    "category": "client",
+    "logo": "/images/logos/ruby.png",
+    "logosmall": "/images/logos/ruby-small.png",
+    "description": "Ruby is a dynamic, open source programming language with a focus on\nsimplicity and productivity. Use the Trino Ruby client library to connect a\nRuby script or application to a Trino cluster and receive the results of the\nsubmitted queries.\n",
+    "links": [
+      {
+        "urltext": "Ruby",
+        "url": "https://www.ruby-lang.org/en/"
+      },
+      {
+        "urltext": "trino-client-ruby",
+        "url": "https://github.com/treasure-data/trino-client-ruby"
+      }
+    ]
+  },
+  {
+    "name": "Rust",
+    "anchor": "rust",
+    "category": "client",
+    "logo": "/images/logos/rust.png",
+    "logosmall": "/images/logos/rust-small.png",
+    "description": "Rust is a programming language empowering everyone to build reliable and\nefficient software. Use the Prusto client library to connect a Rust\napplication to a Trino cluster and receive the results of the submitted\nqueries.\n",
+    "links": [
+      {
+        "urltext": "Rust",
+        "url": "https://www.rust-lang.org/"
+      },
+      {
+        "urltext": "Prusto",
+        "url": "https://github.com/nooberfsh/prusto"
+      }
+    ]
+  },
+  {
+    "name": "RudderStack",
+    "anchor": "rudderstack",
+    "category": "add-on",
+    "logo": "/images/logos/rudderstack.png",
+    "logosmall": "/images/logos/rudderstack-small.png",
+    "description": "RudderStack provides a reverse ETL pipeline that supports Trino as a source. This\nintegration makes it easy to sync data from Trino to over 200 destinations so\nevery team can use it to drive better business outcomes. The integration\nsupports warehouse-based diffing, making it the most performant reverse ETL\nsolution for Trino.\n",
+    "links": [
+      {
+        "urltext": "RudderStack",
+        "url": "https://www.rudderstack.com/"
+      },
+      {
+        "urltext": "Reverse ETL with Trino documentation",
+        "url": "https://www.rudderstack.com/docs/sources/reverse-etl/trino/"
+      },
+      {
+        "urltext": "Annnouncement blog post",
+        "url": "https://www.rudderstack.com/blog/feature-launch-trino-reverse-etl-source/"
+      }
+    ]
+  },
+  {
+    "name": "SingleStore",
+    "anchor": "singlestore",
+    "category": "data-source",
+    "logo": "/images/logos/singlestore.png",
+    "logosmall": "/images/logos/singlestore-small.png",
+    "description": "SingleStoreDB is a unified data engine for transactional and analytical\nworkloads, used to power fast, real-time analytics and applications.\n\nUse a SingleStore database as a data source in Trino by configuring a\ncatalog with the SingleStore connector.\n",
+    "links": [
+      {
+        "urltext": "SingleStore",
+        "url": "https://www.singlestore.com/"
+      },
+      {
+        "urltext": "SingleStore connector documentation",
+        "url": "https://trino.io/docs/current/connector/singlestore.html"
+      }
+    ]
+  },
+  {
+    "name": "Snowflake",
+    "anchor": "snowflake",
+    "category": "data-source",
+    "logo": "/images/logos/snowflake.png",
+    "logosmall": "/images/logos/snowflake-small.png",
+    "description": "Snowflake is a Data Cloud platform provider. Snowflake easily enables\ngoverned access to near-infinite amounts of data, cutting-edge tools,\napplications, and services. With the Data Cloud, you can collaborate locally\nand globally to reveal new insights, create previously unforeseen business\nopportunities, and identify and know your customers in the moment with\nseamless and relevant experiences.\n\nUse a Snowflake data cloud as a data source in Trino by configuring a\ncatalog with the Snowflake connector.\n",
+    "links": [
+      {
+        "urltext": "Snowflake",
+        "url": "https://www.snowflake.com/"
+      },
+      {
+        "urltext": "Snowflake connector documentation",
+        "url": "https://trino.io/docs/current/connector/snowflake.html"
+      },
+      {
+        "urltext": "Let it snow for Trino presentation from Trino Fest 2023",
+        "url": "http://trino.io/blog/2023/07/12/trino-fest-2023-let-it-snow-recap.html"
+      }
+    ]
+  },
+  {
+    "name": "SQL Formatter",
+    "anchor": "workload-analyzer",
+    "category": "add-on",
+    "logo": "/images/logos/sql-formatter.png",
+    "logosmall": "/images/logos/sql-formatter-small.png",
+    "description": "SQL Formatter is a JavaScript library for pretty-printing SQL queries. It\nsupports Trino and can be used as library for web applications, as command\nline tool, and with the live demo deployment. The project is also used for\nVS Code and vim extensions.\n",
+    "links": [
+      {
+        "urltext": "SQL Formatter documentation",
+        "url": "https://github.com/sql-formatter-org/sql-formatter/blob/master/README.md"
+      },
+      {
+        "urltext": "SQL Formatter live demo",
+        "url": "https://sql-formatter-org.github.io/sql-formatter/"
+      },
+      {
+        "urltext": "Documentation for supported languages including Trino",
+        "url": "https://github.com/sql-formatter-org/sql-formatter/blob/master/docs/language.md"
+      }
+    ]
+  },
+  {
+    "name": "SQuirrel SQL",
+    "anchor": "squirrel-sql",
+    "category": "client",
+    "logo": "/images/logos/squirrel-sql.png",
+    "logosmall": "/images/logos/squirrel-sql-small.png",
+    "description": "SQuirrel SQL is a Java-based graphical database client that allows you to\nview the structure of your database, browse the data in tables, and issue\nSQL commands. It uses JDBC to allow users to explore and interact with\ndatabases via a JDBC driver. In addition, it provides an editor that offers\ncode completion and syntax highlighting for standard SQL.\n",
+    "links": [
+      {
+        "urltext": "SQuirrel SQL",
+        "url": "http://www.squirrelsql.org/"
+      },
+      {
+        "urltext": "SQuirrel SQL with Trino tutorial",
+        "url": "https://docs.starburst.io/data-consumer/clients/squirrel-sql.html"
+      }
+    ]
+  },
+  {
+    "name": "Tableau",
+    "anchor": "tableau",
+    "category": "client",
+    "logo": "/images/logos/tableau.png",
+    "logosmall": "/images/logos/tableau-small.png",
+    "description": "Tableau is a visual analytics platform transforming the way we use data to\nsolve problems—empowering people and organizations to make the most of their\ndata.\n",
+    "links": [
+      {
+        "urltext": "Tableau",
+        "url": "http://www.tableau.com/"
+      },
+      {
+        "urltext": "How to connect Tableau to Trino",
+        "url": "https://help.tableau.com/current/pro/desktop/en-us/examples_presto.htm"
+      }
+    ]
+  },
+  {
+    "name": "Testcontainers",
+    "anchor": "testcontainers",
+    "category": "add-on",
+    "logo": "/images/logos/testcontainers.png",
+    "logosmall": "/images/logos/testcontainers-small.png",
+    "description": "Testcontainers is an open source framework for providing throwaway,\nlightweight instances of databases, message brokers, web browsers, or just\nabout anything that can run in a Docker container.\n\nUse the Trino module in your integration tests and other scenarios.\n",
+    "links": [
+      {
+        "urltext": "Testcontainers",
+        "url": "https://testcontainers.com/"
+      },
+      {
+        "urltext": "Trino module",
+        "url": "https://testcontainers.com/modules/trino/"
+      }
+    ]
+  },
+  {
+    "name": "TPC",
+    "anchor": "tpc",
+    "category": "data-source",
+    "logo": "/images/logos/tpc.png",
+    "logosmall": "/images/logos/tpc-small.png",
+    "description": "TPC is a non-profit corporation focused on developing data-centric benchmark\nstandards and disseminating objective, verifiable data to the industry.\n\nThe Trino TPC-H and TPC-DS connectors are data generators that provide the\nbenchmark data sets for direct querying or copying into other data sources\nfor testing and benchmarking.\n",
+    "links": [
+      {
+        "urltext": "TPC",
+        "url": "https://tpc.org/"
+      },
+      {
+        "urltext": "TPC-DS connector documentation",
+        "url": "https://trino.io/docs/current/connector/tpcds.html"
+      },
+      {
+        "urltext": "TPC-H connector documentation",
+        "url": "https://trino.io/docs/current/connector/tpch.html"
+      }
+    ]
+  },
+  {
+    "name": "Trino-lb",
+    "anchor": "trino-lb",
+    "category": "add-on",
+    "logo": "/images/logos/trino-lb.png",
+    "logosmall": "/images/logos/trino-lb-small.png",
+    "description": "Trino-lb is a load balancer with support for routing, queueing, and auto-scaling\nfor multiple Trino clusters.\n",
+    "links": [
+      {
+        "urltext": "Trino-lb",
+        "url": "https://github.com/stackabletech/trino-lb"
+      },
+      {
+        "urltext": "Trino-lb documentation",
+        "url": "https://github.com/stackabletech/trino-lb/blob/main/README.md"
+      }
+    ]
+  },
+  {
+    "name": "Trino Gateway",
+    "anchor": "trino-gateway",
+    "category": "add-on",
+    "logo": "/images/logos/trino-gateway.png",
+    "logosmall": "/images/logos/trino-gateway-small.png",
+    "description": "Trino Gateway is a load balancer, proxy server, and configurable routing\ngateway for multiple Trino clusters. Users can register/de-register\nTrino clusters behind the gateway and connect to it using standard clients.\n",
+    "links": [
+      {
+        "urltext": "Trino Gateway",
+        "url": "https://github.com/trinodb/trino-gateway"
+      },
+      {
+        "urltext": "Trino Gateway documentation",
+        "url": "https://github.com/trinodb/trino-gateway/blob/main/README.md"
+      },
+      {
+        "urltext": "Many clusters and only one gateway at Trino Summit 2023",
+        "url": "https://www.youtube.com/watch?v=2qwBcKmQSn0"
+      },
+      {
+        "urltext": "Announcement blog post",
+        "url": "https://trino.io/blog/2023/09/28/trino-gateway"
+      }
+    ]
+  },
+  {
+    "name": "VAST",
+    "anchor": "vast",
+    "category": "data-source",
+    "logo": "/images/logos/vast.png",
+    "logosmall": "/images/logos/vast-small.png",
+    "description": "VAST is a data platform that includes storage and database services.\n\nUse a VAST data store as a data source in Trino by configuring a\ncatalog with the VAST Trino connector.\n",
+    "links": [
+      {
+        "urltext": "VAST",
+        "url": "https://vastdata.com/"
+      },
+      {
+        "urltext": "VAST Trino connector",
+        "url": "https://github.com/vast-data/vast-trino-connector"
+      },
+      {
+        "urltext": "VAST database catalog at Trino Summit 2023",
+        "url": "https://www.youtube.com/watch?v=RutbCY8i22Q"
+      },
+      {
+        "urltext": "Trino Community Broadcast 56 - The vast possibilities of VAST and Trino",
+        "url": "/episodes/56.html"
+      }
+    ]
+  },
+  {
+    "name": "Workload Analyzer",
+    "anchor": "workload-analyzer",
+    "category": "add-on",
+    "logo": "/images/logos/workload-analyzer.png",
+    "logosmall": "/images/logos/workload-analyzer-small.png",
+    "description": "The Workload Analyzer collects Trino workload statistics, and analyzes them.\nThe resulting report provides improved visibility into your analytical\nworkloads, and enables cluster performance optimization.\n",
+    "links": [
+      {
+        "urltext": "Workload analyzer",
+        "url": "https://github.com/varadaio/presto-workload-analyzer"
+      },
+      {
+        "urltext": "Installation instructions",
+        "url": "https://github.com/varadaio/presto-workload-analyzer/blob/main/INSTALL.md"
+      }
+    ]
+  },
+  {
+    "name": "VSCode",
+    "anchor": "vscode",
+    "category": "client",
+    "logo": "/images/logos/vscode.png",
+    "logosmall": "/images/logos/vscode-small.png",
+    "description": "Visual Studio Code (VSCode) is a free, open-source editor by Microsoft\nwith features such as syntax highlighting, IntelliSense, code navigation,\nand built-in debugging for developers. With extensions it can also work as\na SQL client.\n",
+    "links": [
+      {
+        "urltext": "Visual Studio Code",
+        "url": "https://code.visualstudio.com/"
+      },
+      {
+        "urltext": "sqltools-trino-driver",
+        "url": "https://github.com/regadas/sqltools-trino-driver"
+      }
+    ]
+  },
+  {
+    "name": "yanagishima",
+    "anchor": "yanagishima",
+    "category": "client",
+    "logo": "/images/logos/yanagishima.png",
+    "logosmall": "/images/logos/yanagishima-small.png",
+    "description": "yanagishima is a web application for Trino. yanagishima provides the ability\nto execute query, show query, kill query, bookmark query, search table,\nshare query/query result, format query, download as CSV/TSV file, insert\nchart, substitute query parameter, and so on.\n",
+    "links": [
+      {
+        "urltext": "yanagishima",
+        "url": "https://yanagishima.github.io/yanagishima/"
+      }
+    ]
+  },
+  {
+    "name": "Zing Data",
+    "anchor": "zing-data",
+    "category": "client",
+    "logo": "/images/logos/zing-data.png",
+    "logosmall": "/images/logos/zing-data-small.png",
+    "description": "Zing Data is a data analysis and collaboration platform with native apps on\niOS, Android, and the web. Zing makes asking questions of data and\nvisualizing answers easy for everybody in your organization. Free for small\nteams, and super-affordable for bigger ones, Zing requires no SQL, no\ndesktop, and no instruction manual. Collaborate as easily as chatting, and\nintegrate seamlessly with all the data sources you already have.\n",
+    "links": [
+      {
+        "urltext": "Zing Data",
+        "url": "https://getzingdata.com/"
+      },
+      {
+        "urltext": "Set up Trino as a data source",
+        "url": "https://docs.getzingdata.com/docs/setting-up-a-data-source/trino_setup/"
+      },
+      {
+        "urltext": "Zing Data with Trino tutorial",
+        "url": "https://docs.starburst.io/data-consumer/clients/zingdata.html"
+      }
+    ]
+  }
+]

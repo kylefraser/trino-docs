@@ -22,6 +22,8 @@ import {
   Wand,
 } from 'lucide-react';
 import Image from 'next/image';
+import Markdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 export default function SearchDialog() {
   const [open, setOpen] = React.useState(false);
@@ -69,10 +71,20 @@ export default function SearchDialog() {
       <Dialog open={open}>
         <DialogContent className="sm:max-w-[850px] max-h-[80vh] overflow-y-auto text-black">
           <DialogHeader>
-            <DialogTitle>Ask a question</DialogTitle>
-            <DialogDescription>
-              Ask Commander Bun Bun a question about Trino.
-            </DialogDescription>
+            <div className="flex flex-row items-center gap-4">
+              <Image
+                src="/images/trino.png"
+                width="75"
+                height="75"
+                alt="Search"
+              />
+              <div>
+                <DialogTitle>Ask a question</DialogTitle>
+                <DialogDescription>
+                  Ask Commander Bun Bun a question about Trino.
+                </DialogDescription>
+              </div>
+            </div>
             <hr />
             <button
               className="absolute top-0 right-2 p-2"
@@ -85,13 +97,16 @@ export default function SearchDialog() {
           <form onSubmit={handleSubmit}>
             <div className="grid gap-4 py-4 text-slate-700">
               {query && (
-                <div className="flex gap-4">
-                  <span className="bg-slate-100 dark:bg-slate-300 p-2 w-8 h-8 rounded-full text-center flex items-center justify-center">
-                    <User width={18} />{' '}
+                <div className="flex items-center gap-4">
+                  <span className="bg-background p-2 w-8 h-8 rounded-full text-center flex items-center justify-center">
+                    <User width={24} />{' '}
                   </span>
-                  <p className="mt-0.5 font-semibold text-slate-700 dark:text-slate-100">
-                    {query}
-                  </p>
+                  <div>
+                    <small>You asked...</small>
+                    <p className="leading-tight font-semibold text-slate-700 dark:text-slate-100">
+                      {query}
+                    </p>
+                  </div>
                 </div>
               )}
 
@@ -114,11 +129,7 @@ export default function SearchDialog() {
 
               {completion && !error ? (
                 <div className="flex flex-col items-start gap-4 text-black">
-                  <span className="bg-green-500 p-2 w-8 h-8 rounded-full text-center flex items-center justify-center">
-                    <Wand width={18} className="text-white" />
-                  </span>
-                  <h3 className="font-semibold">Answer:</h3>
-                  {completion}
+                  <Markdown remarkPlugins={[remarkGfm]}>{completion}</Markdown>
                 </div>
               ) : null}
 
