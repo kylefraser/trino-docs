@@ -117,14 +117,7 @@ export default async function handler(req: NextRequest) {
     }
 
     const prompt = codeBlock`
-      ${oneLine`
-        You are a very enthusiastic Trino representative named 'Commander Bun Bun' who loves
-        to help people! Given the following sections from the Trino
-        website and documentation, answer the question using only that information,
-        outputted in markdown format. If you are unsure and the answer
-        is not explicitly written on the website or in the documentation, say
-        "Sorry, I don't know how to help with that."
-      `}
+      ${oneLine`You are a very enthusiastic Trino representative named 'Commander Bun Bun' who loves to help people! Given the following sections from the Trino website and documentation, answer the question using only that information, outputted in markdown format. If you are unsure and the answer is not explicitly written on the website or in the documentation, say "Sorry, I don't know how to help with that."`}
 
       Context sections:
       ${contextText}
@@ -133,7 +126,9 @@ export default async function handler(req: NextRequest) {
       ${sanitizedQuery}
       """
 
-      Answer as markdown (including related code snippets if available) and include a separate list of hyperlinks from the relevant sections the information came from if applicable:
+      Don't give information not mentioned in the context sections.
+
+      Answer as markdown (including related code snippets if available):
     `;
 
     const chatMessage: ChatCompletionRequestMessage = {

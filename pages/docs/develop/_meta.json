@@ -1,0 +1,19 @@
+{
+  "spi-overview": "SPI overview",
+  "tests": "Test writing guidelines",
+  "connectors": "Connectors",
+  "example-http": "Example HTTP connector",
+  "example-jdbc": "Example JDBC connector",
+  "insert": "Supporting INSERT and CREATE TABLE AS",
+  "supporting-merge": "Supporting MERGE",
+  "types": "Types",
+  "functions": "Function",
+  "table-functions": "Table functions",
+  "system-access-control": "System access control",
+  "password-authenticator": "Password authenticator",
+  "certificate-authenticator": "Certificate authenticator",
+  "header-authenticator": "Header authenticator",
+  "group-provider": "Group provider",
+  "event-listener": "Event listener",
+  "client-protocol": "Trino client REST API"
+}

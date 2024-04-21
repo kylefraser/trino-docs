@@ -74,21 +74,21 @@
     "title": "Development",
     "type": "menu",
     "items": {
+      "vision": {
+        "title": "Vision",
+        "href": "/development/vision"
+      },
       "contribute": {
         "title": "Contribute",
         "href": "/development/contribute"
-      },
-      "developer-guidelines": {
-        "title": "Developer guidelines",
-        "href": "/development/developer-guidelines"
       },
       "roles": {
         "title": "Roles",
         "href": "/development/roles"
       },
-      "vision": {
-        "title": "Vision",
-        "href": "/development/vision"
+      "developer-guidelines": {
+        "title": "Developer guidelines",
+        "href": "/development/developer-guidelines"
       }
     }
   },

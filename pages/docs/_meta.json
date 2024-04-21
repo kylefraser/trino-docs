@@ -3,5 +3,6 @@
   "overview": "Overview",
   "installation": "Installation",
   "client": "Clients",
-  "optimizer": "Query optimizer"
+  "optimizer": "Query optimizer",
+  "develop": "Developer guide"
 }
